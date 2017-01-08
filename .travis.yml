@@ -1,0 +1,13 @@
+sudo: true
+language: node_js
+node_js:
+- '6'
+install:
+- sudo pip install mkdocs python-markdown-math
+- npm install -g bower gulp
+before_script: wget https://raw.githubusercontent.com/UVicNotes/UVicNotes/master/scripts/deploy.sh
+script: bash ./deploy.sh
+env:
+  global:
+  - GH_REF: github.com/UVicNotes/MATH-375.git
+  - secure: j7Ljj971IrFWUh2TLVeSpnL/LGDneyd9hZdXzD0akzqbILqhXnP0l5xLvHpDbQlIP9J1rXt5hKKiObPfC+IBYTQZGv5rKCa911t5iOBhhEBiNOYsVClX8zngrl9WIVmrp97NI5QR7Wo7p5g8ui8aD/O1+vbnjhOSzb9Qdb93L+3sY7OAEyMLSLXZ6teSMjOfJ5VebormB7Aa9bGqTUs9bcsPrV3Lzw9Zd4utyq1LObWAKwakHz/Bf/6hpwgMqW1I/z4MPzCXmOnvYaITmtZLjhAvGdyqM8p5T9zCMyALGKHlLmQFmJIVoT14rOi7PsgTc+HA1NWwKbMAvrZSlGUHZ2Nc0Hm2pcEooYEIh7lqctq5T0LlXhMVHwgQX6xl9Wi3MKy5WcT8sni1J3WYX0fwu81Rwy9TaNwGpJabVLbVCCD9/h5Dfn3oykOyiooyCLMDG5VkSrXFSpel81ABQLe0E4xJC6RU2DJv7G24XV/PFVHm5XVta0+VH41+Zzv8twJjQ73w45e9wD92ZnNxZp0mYS0vNsNcbk5RBD0RU+ig0BKiL52yMF61xVJ+kmvYrV5mK0tVV/qnS7fXB42TyGJnRG8gZY5Yw7IH88ZpPtRJQHSvgJ3GSUJyROM4URyUZN0yZqsqgngcDS0PPopLxjM/9jNMx6KPWDDW6knfVvVXwc0=
