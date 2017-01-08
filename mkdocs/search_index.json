@@ -32,17 +32,12 @@
         }, 
         {
             "location": "/1-Introduction/", 
-            "text": "Lecture 1 - Notes\n\n\nJanuary 4, 2017\n  \n\n\nIntroduction\n\n\n\n\nInstructor\n: Audrey Yap\n\n\n\n\nIn this course\n\n\nApplying \nphilosophical methods\n to mathematics. What are the questions that philosophy of math asks? There a lots of questions,\n\n\n\n\nWhat are abstract objects like numbers?\n\n\nWhy doesn't $\\sqrt{-1}$ make sense?\n\n\nHow was algebra defined?\n\n\n\n\nIn this course we're going to focus on the late 19^th and early 20^th century.\n\n\nKnowledge and Justification\n\n\ndefinition:\n \nEpistemology\n is the investigation of what distinguishes justified belief from opinion.\n\n\nThink about the knowledge we have of Mathematics. For example,\n\n\n\n\nThere are no positive numbers smaller than zero.\n\n\n\n\nWhy do we know this? How do we \njustify\n this knowledge?\n\n\n\n\nPerceptual Knowledge\n, is based on your perception of the world.\n\n\ne.g., \nWhy do you think that book is blue?\n My eyesight is good, and that's how I perceive is.\n\n\ne.g., \nHow do you know your dog loves you?\n Here are some stories about my dog.\n\n\n\n\nA Priori \n A Posteriori\n\n\ndefinitions:\n\n\n\n\nSomething that is justified \na priori\n uses theoretical deduction rather than from observation or experience (not \nempirical\n).\n\n\nSomething that is just justified \na posteriori\n using reasoning or knowledge that proceeds from observations or experiences to the deduction of probable causes.\n\n\n\n\nMathematics\n\n\nHow would we \njustify\n things in Mathematics? We \nprove\n them using proofs.\n\n\n\n\nMathematical knowledge is \na priori\n.\n\n\n\n\nIn other words knowledge about math is not just true because someone said so. It can be independently constructed and deduced.\n\n\nThe Nature of Numbers\n\n\ndefinition:\n \nOnology\n examines the nature of ideas.\n\n\nNumbers are \nrepresentations\n of the physical world. But how do they relate to the physical world and how do we know how they relate?", 
+            "text": "Introduction\n\n\nLecture 1 - January 4, 2017\n\n\nIn this course\n\n\nApplying \nphilosophical methods\n to mathematics. What are the questions that philosophy of math asks? There a lots of questions,\n\n\n\n\nWhat are abstract objects like numbers?\n\n\nWhy doesn't $\\sqrt{-1}$ make sense?\n\n\nHow was algebra defined?\n\n\n\n\nIn this course we're going to focus on the late 19^th and early 20^th century.\n\n\nKnowledge and Justification\n\n\nLecture 2 - January 6, 2017\n\n\ndefinition:\n \nEpistemology\n is the investigation of what distinguishes justified belief from opinion.\n\n\nThink about the knowledge we have of Mathematics. For example,\n\n\n\n\nThere are no positive numbers smaller than zero.\n\n\n\n\nWhy do we know this? How do we \njustify\n this knowledge?\n\n\n\n\nPerceptual Knowledge\n, is based on your perception of the world.\n\n\ne.g., \nWhy do you think that book is blue?\n My eyesight is good, and that's how I perceive is.\n\n\ne.g., \nHow do you know your dog loves you?\n Here are some stories about my dog.\n\n\n\n\nA Priori \n A Posteriori\n\n\ndefinitions:\n\n\n\n\nSomething that is justified \na priori\n uses theoretical deduction rather than from observation or experience (not \nempirical\n).\n\n\nSomething that is just justified \na posteriori\n using reasoning or knowledge that proceeds from observations or experiences to the deduction of probable causes.\n\n\n\n\nMathematics\n\n\nHow would we \njustify\n things in Mathematics? We \nprove\n them using proofs.\n\n\n\n\nMathematical knowledge is \na priori\n.\n\n\n\n\nIn other words knowledge about math is not just true because someone said so. It can be independently constructed and deduced.\n\n\nThe Nature of Numbers\n\n\ndefinition:\n \nOnology\n examines the nature of ideas.\n\n\nNumbers are \nrepresentations\n of the physical world. But how do they relate to the physical world and how do we know how they relate?", 
             "title": "1 Introduction"
         }, 
         {
-            "location": "/1-Introduction/#lecture-1-notes", 
-            "text": "January 4, 2017", 
-            "title": "Lecture 1 - Notes"
-        }, 
-        {
             "location": "/1-Introduction/#introduction", 
-            "text": "Instructor : Audrey Yap", 
+            "text": "Lecture 1 - January 4, 2017", 
             "title": "Introduction"
         }, 
         {
@@ -52,7 +47,7 @@
         }, 
         {
             "location": "/1-Introduction/#knowledge-and-justification", 
-            "text": "definition:   Epistemology  is the investigation of what distinguishes justified belief from opinion.  Think about the knowledge we have of Mathematics. For example,   There are no positive numbers smaller than zero.   Why do we know this? How do we  justify  this knowledge?   Perceptual Knowledge , is based on your perception of the world.  e.g.,  Why do you think that book is blue?  My eyesight is good, and that's how I perceive is.  e.g.,  How do you know your dog loves you?  Here are some stories about my dog.", 
+            "text": "Lecture 2 - January 6, 2017  definition:   Epistemology  is the investigation of what distinguishes justified belief from opinion.  Think about the knowledge we have of Mathematics. For example,   There are no positive numbers smaller than zero.   Why do we know this? How do we  justify  this knowledge?   Perceptual Knowledge , is based on your perception of the world.  e.g.,  Why do you think that book is blue?  My eyesight is good, and that's how I perceive is.  e.g.,  How do you know your dog loves you?  Here are some stories about my dog.", 
             "title": "Knowledge and Justification"
         }, 
         {
