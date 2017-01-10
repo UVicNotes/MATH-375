@@ -26,7 +26,7 @@ The goal of this course is to give students a technical introduction to current 
 * **Topic**: Frege’s Logicism.
 * **Reading**:
     * George and Velleman, Chapter 2.
-    * Gottlob Frege, excerpts from The Foundations of Arithmetic.
+    * Gottlob Frege, The Foundations of Arithmetic (Intro and Sections 55-87)
 * [Notes](/2-Freges-Logicism)
 
 ### Week Three: January 17, 18, 20
@@ -34,7 +34,8 @@ The goal of this course is to give students a technical introduction to current 
 * **Topic**: Frege’s Logicism.
 * **Reading**:
     * George and Velleman, Chapter 2.
-    * Gottlob Frege, excerpts from The Foundations of Arithmetic. Bertrand Russell, “Letter to Frege”
+    * Gottlob Frege, The Foundations of Arithmetic
+    * Bertrand Russell, “Letter to Frege”
 * **Assignment**: Homework #1 due January 20
 
 ### Week Four: January 24, 25, 27
