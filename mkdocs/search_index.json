@@ -137,13 +137,48 @@
         }, 
         {
             "location": "/2-Freges-Logicism/", 
-            "text": "Frege's Logicism", 
+            "text": "Frege's Logicism\n\n\nWhat is the number one?\n\n\nFrege examines this question from a number of angles and uses it as an example extensively.\n\n\nFrege's Views\n\n\nFrege disagreed with several prior philosophers of how Mathematics were defined\n\n\n\n\nJohn Stuart Mill\n, who wanted to base Mathematical knowledge on empirical knowledge.\n\n\nImmanuel Kant\n, who suggested that there is some innate intuition in our minds that gives us definitions Mathematics.\n\n\n\n\nFrege thought instead the theories of Mathematics should be based on \nlogic\n. He developed a set of rules for this logic which he document in a book, \nBegriffsschrift\n.\n\n\nMuch of modern logic is based on Frege's work although \nhis notation\n has been mostly replaced by modern alternatives. Frege's system used some \nsecond-order logic\n.", 
             "title": "2 Freges Logicism"
         }, 
         {
             "location": "/2-Freges-Logicism/#freges-logicism", 
             "text": "", 
             "title": "Frege's Logicism"
+        }, 
+        {
+            "location": "/2-Freges-Logicism/#what-is-the-number-one", 
+            "text": "Frege examines this question from a number of angles and uses it as an example extensively.", 
+            "title": "What is the number one?"
+        }, 
+        {
+            "location": "/2-Freges-Logicism/#freges-views", 
+            "text": "Frege disagreed with several prior philosophers of how Mathematics were defined   John Stuart Mill , who wanted to base Mathematical knowledge on empirical knowledge.  Immanuel Kant , who suggested that there is some innate intuition in our minds that gives us definitions Mathematics.   Frege thought instead the theories of Mathematics should be based on  logic . He developed a set of rules for this logic which he document in a book,  Begriffsschrift .  Much of modern logic is based on Frege's work although  his notation  has been mostly replaced by modern alternatives. Frege's system used some  second-order logic .", 
+            "title": "Frege's Views"
+        }, 
+        {
+            "location": "/A-Logic/", 
+            "text": "Logic\n\n\nFirst-Order Logic\n\n\nPredicates\n\n\nWe write a \npredicate\n as $F(x)$ for some statement $F$ and some object $x$. For example, we could let $P(x)$ be the statement \"$x$ is even\" for some object $x$.\n\n\nSecond-Order Logic\n\n\nIn \nSecond-order Logic\n we can quantify over sets. For example we can write,\n\n\n\n\n\n    \\exists P \\exists x ~\\neg P(x)\n\n\n\n\n\nOr, there exists statement $P$ and there exists and object $x$ such that $P$ is false for $x$.", 
+            "title": "A Logic"
+        }, 
+        {
+            "location": "/A-Logic/#logic", 
+            "text": "", 
+            "title": "Logic"
+        }, 
+        {
+            "location": "/A-Logic/#first-order-logic", 
+            "text": "", 
+            "title": "First-Order Logic"
+        }, 
+        {
+            "location": "/A-Logic/#predicates", 
+            "text": "We write a  predicate  as $F(x)$ for some statement $F$ and some object $x$. For example, we could let $P(x)$ be the statement \"$x$ is even\" for some object $x$.", 
+            "title": "Predicates"
+        }, 
+        {
+            "location": "/A-Logic/#second-order-logic", 
+            "text": "In  Second-order Logic  we can quantify over sets. For example we can write,   \n    \\exists P \\exists x ~\\neg P(x)   Or, there exists statement $P$ and there exists and object $x$ such that $P$ is false for $x$.", 
+            "title": "Second-Order Logic"
         }
     ]
 }
