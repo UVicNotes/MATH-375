@@ -13,5 +13,5 @@ Frege disagreed with several prior philosophers of how Mathematics were defined
 
 Frege thought instead the theories of Mathematics should be based on **logic**. He developed a set of rules for this logic which he document in a book, [Begriffsschrift](https://en.wikipedia.org/wiki/Begriffsschrift).
 
-Much of modern logic is based on Frege's work although [his notation](https://en.wikipedia.org/wiki/Begriffsschrift#Notation_and_the_system) has been mostly replaced by modern alternatives. Frege's system used some [second-order logic](A-Logic#second-order-logic).
+Much of modern logic is based on Frege's work although [his notation](https://en.wikipedia.org/wiki/Begriffsschrift#Notation_and_the_system) has been mostly replaced by modern alternatives. Frege's system used some [second-order logic](/appx/logic#second-order-logic).
 

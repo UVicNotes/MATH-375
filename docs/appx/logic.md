@@ -2,7 +2,7 @@
 
 ## First-Order Logic
 
-### Predicates 
+### Predicates
 
 We write a **predicate** as $F(x)$ for some statement $F$ and some object $x$. For example, we could let $P(x)$ be the statement "$x$ is even" for some object $x$.
 
@@ -16,3 +16,13 @@ $$
 $$
 
 Or, there exists statement $P$ and there exists and object $x$ such that $P$ is false for $x$.
+
+#### Examples
+
+There are $0$ $F$'s, can be written as
+
+$$
+    \neg \exists x F(x)
+$$
+
+or in shorthand, $\exists_0 x F(x)$.
