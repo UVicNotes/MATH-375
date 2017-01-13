@@ -23,5 +23,5 @@ markdown_extensions:
 extra:
   version: 'Spring 2017'
   palette:
-    primary: 'green'
+    primary: 'indigo'
     accent: 'orange'
