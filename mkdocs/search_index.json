@@ -137,7 +137,7 @@
         }, 
         {
             "location": "/notes/2-freges-logicism/", 
-            "text": "Frege's Logicism\n\n\nWhat is the number one?\n\n\nFrege examines this question from a number of angles and uses it as an example extensively.\n\n\nFrege's Views\n\n\nFrege disagreed with several prior philosophers of how Mathematics were defined\n\n\n\n\nJohn Stuart Mill\n, who wanted to base Mathematical knowledge on empirical knowledge.\n\n\nImmanuel Kant\n, who suggested that there is some innate intuition in our minds that gives us definitions Mathematics.\n\n\n\n\nFrege thought instead the theories of Mathematics should be based on \nlogic\n. He developed a set of rules for this logic which he document in a book, \nBegriffsschrift\n.\n\n\nMuch of modern logic is based on Frege's work although \nhis notation\n has been mostly replaced by modern alternatives. Frege's system used some \nsecond-order logic\n.", 
+            "text": "Frege's Logicism\n\n\nWhat is the number one?\n\n\nFrege examines this question from a number of angles and uses it as an example extensively.\n\n\nFrege's Views\n\n\nFrege disagreed with several prior philosophers of how Mathematics were defined\n\n\n\n\nJohn Stuart Mill\n, who wanted to base Mathematical knowledge on empirical knowledge.\n\n\nImmanuel Kant\n, who suggested that there is some innate intuition in our minds that gives us definitions Mathematics.\n\n\n\n\nFrege thought instead the theories of Mathematics should be based on \nlogic\n. He developed a set of rules for this logic which he document in a book, \nBegriffsschrift\n.\n\n\nMuch of modern logic is based on Frege's work although \nhis notation\n has been mostly replaced by modern alternatives. Frege's system used some \nsecond-order logic\n.\n\n\nFrege's Logic\n\n\nIf $\\exists x_1 F(x)$ the $\\neg \\exists x_2 F(x)$, or \"If there exists exactly one thing that is $F$ than there are not two thing that are $F$\".\n\n\nProving a Conditional\n\n\nSuppose $\\exists x_1 F(x)$, so $\\exists x(F(x) \\wedge \\neg (F(y) \\wedge x \\neq y))$. Let $a$ be such that $F(a) \\wedge \\neq \\exists y(F(y) \\wedge a \\neq y)$.\n\n\nThis implies $\\neg \\exists y (F(a) \\wedge F(y) \\wedge a \\neq y)$. So $\\neg \\exists y(F(x) \\wedge F(y) \\wedge x \\neq y)$.\n\n\nEquality\n\n\nThe number of $F$'s is the same as the number of $G$'s.\n\n\n\n\n\n    \\exists_5 x F(x) \\wedge \\exists_5 x G(x)\n\n\n\n\n\n\"The number of $F$'s is 5 and the number of $G$'s is 5\". We want to write an \nequality\n statement, \"The number of $F$'s $=$ the number of $G$'s\".", 
             "title": "Frege's Logicism"
         }, 
         {
@@ -154,6 +154,21 @@
             "location": "/notes/2-freges-logicism/#freges-views", 
             "text": "Frege disagreed with several prior philosophers of how Mathematics were defined   John Stuart Mill , who wanted to base Mathematical knowledge on empirical knowledge.  Immanuel Kant , who suggested that there is some innate intuition in our minds that gives us definitions Mathematics.   Frege thought instead the theories of Mathematics should be based on  logic . He developed a set of rules for this logic which he document in a book,  Begriffsschrift .  Much of modern logic is based on Frege's work although  his notation  has been mostly replaced by modern alternatives. Frege's system used some  second-order logic .", 
             "title": "Frege's Views"
+        }, 
+        {
+            "location": "/notes/2-freges-logicism/#freges-logic", 
+            "text": "If $\\exists x_1 F(x)$ the $\\neg \\exists x_2 F(x)$, or \"If there exists exactly one thing that is $F$ than there are not two thing that are $F$\".", 
+            "title": "Frege's Logic"
+        }, 
+        {
+            "location": "/notes/2-freges-logicism/#proving-a-conditional", 
+            "text": "Suppose $\\exists x_1 F(x)$, so $\\exists x(F(x) \\wedge \\neg (F(y) \\wedge x \\neq y))$. Let $a$ be such that $F(a) \\wedge \\neq \\exists y(F(y) \\wedge a \\neq y)$.  This implies $\\neg \\exists y (F(a) \\wedge F(y) \\wedge a \\neq y)$. So $\\neg \\exists y(F(x) \\wedge F(y) \\wedge x \\neq y)$.", 
+            "title": "Proving a Conditional"
+        }, 
+        {
+            "location": "/notes/2-freges-logicism/#equality", 
+            "text": "The number of $F$'s is the same as the number of $G$'s.   \n    \\exists_5 x F(x) \\wedge \\exists_5 x G(x)   \"The number of $F$'s is 5 and the number of $G$'s is 5\". We want to write an  equality  statement, \"The number of $F$'s $=$ the number of $G$'s\".", 
+            "title": "Equality"
         }, 
         {
             "location": "/appx/logic/", 

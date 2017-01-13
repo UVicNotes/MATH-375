@@ -207,6 +207,12 @@
               </a>
             </li>
           
+            <li class="anchor">
+              <a title="Frege's Logic" href="#freges-logic">
+                Frege's Logic
+              </a>
+            </li>
+          
         </ul>
       
     
@@ -263,6 +269,19 @@
 </ul>
 <p>Frege thought instead the theories of Mathematics should be based on <strong>logic</strong>. He developed a set of rules for this logic which he document in a book, <a href="https://en.wikipedia.org/wiki/Begriffsschrift">Begriffsschrift</a>.</p>
 <p>Much of modern logic is based on Frege's work although <a href="https://en.wikipedia.org/wiki/Begriffsschrift#Notation_and_the_system">his notation</a> has been mostly replaced by modern alternatives. Frege's system used some <a href="../../appx/logic#second-order-logic">second-order logic</a>.</p>
+<h2 id="freges-logic">Frege's Logic</h2>
+<p>If $\exists x_1 F(x)$ the $\neg \exists x_2 F(x)$, or "If there exists exactly one thing that is $F$ than there are not two thing that are $F$".</p>
+<h3 id="proving-a-conditional">Proving a Conditional</h3>
+<p>Suppose $\exists x_1 F(x)$, so $\exists x(F(x) \wedge \neg (F(y) \wedge x \neq y))$. Let $a$ be such that $F(a) \wedge \neq \exists y(F(y) \wedge a \neq y)$.</p>
+<p>This implies $\neg \exists y (F(a) \wedge F(y) \wedge a \neq y)$. So $\neg \exists y(F(x) \wedge F(y) \wedge x \neq y)$.</p>
+<h3 id="equality">Equality</h3>
+<p>The number of $F$'s is the same as the number of $G$'s.</p>
+<p>
+<script type="math/tex; mode=display">
+    \exists_5 x F(x) \wedge \exists_5 x G(x)
+</script>
+</p>
+<p>"The number of $F$'s is 5 and the number of $G$'s is 5". We want to write an <strong>equality</strong> statement, "The number of $F$'s $=$ the number of $G$'s".</p>
           <aside class="copyright" role="note">
             
             Documentation built with
