@@ -101,84 +101,89 @@
             "title": "Assessment"
         }, 
         {
-            "location": "/1-Introduction/", 
+            "location": "/notes/1-introduction/", 
             "text": "Introduction\n\n\nLecture 1 - January 4, 2017\n\n\nIn this course\n\n\nApplying \nphilosophical methods\n to mathematics. What are the questions that philosophy of math asks? There a lots of questions,\n\n\n\n\nWhat are abstract objects like numbers?\n\n\nWhy doesn't $\\sqrt{-1}$ make sense?\n\n\nHow was algebra defined?\n\n\n\n\nIn this course we're going to focus on the late 19^th and early 20^th century.\n\n\nKnowledge and Justification\n\n\nLecture 2 - January 6, 2017\n\n\ndefinition:\n \nEpistemology\n is the investigation of what distinguishes justified belief from opinion.\n\n\nThink about the knowledge we have of Mathematics. For example,\n\n\n\n\nThere are no positive numbers smaller than zero.\n\n\n\n\nWhy do we know this? How do we \njustify\n this knowledge?\n\n\n\n\nPerceptual Knowledge\n, is based on your perception of the world.\n\n\ne.g., \nWhy do you think that book is blue?\n My eyesight is good, and that's how I perceive is.\n\n\ne.g., \nHow do you know your dog loves you?\n Here are some stories about my dog.\n\n\n\n\nA Priori \n A Posteriori\n\n\ndefinitions:\n\n\n\n\nSomething that is justified \na priori\n uses theoretical deduction rather than from observation or experience (not \nempirical\n).\n\n\nSomething that is just justified \na posteriori\n using reasoning or knowledge that proceeds from observations or experiences to the deduction of probable causes.\n\n\n\n\nMathematics\n\n\nHow would we \njustify\n things in Mathematics? We \nprove\n them using proofs.\n\n\n\n\nMathematical knowledge is \na priori\n.\n\n\n\n\nIn other words knowledge about math is not just true because someone said so. It can be independently constructed and deduced.\n\n\nThe Nature of Numbers\n\n\ndefinition:\n \nOnology\n examines the nature of ideas.\n\n\nNumbers are \nrepresentations\n of the physical world. But how do they relate to the physical world and how do we know how they relate?", 
-            "title": "1 Introduction"
+            "title": "Introduction"
         }, 
         {
-            "location": "/1-Introduction/#introduction", 
+            "location": "/notes/1-introduction/#introduction", 
             "text": "Lecture 1 - January 4, 2017", 
             "title": "Introduction"
         }, 
         {
-            "location": "/1-Introduction/#in-this-course", 
+            "location": "/notes/1-introduction/#in-this-course", 
             "text": "Applying  philosophical methods  to mathematics. What are the questions that philosophy of math asks? There a lots of questions,   What are abstract objects like numbers?  Why doesn't $\\sqrt{-1}$ make sense?  How was algebra defined?   In this course we're going to focus on the late 19^th and early 20^th century.", 
             "title": "In this course"
         }, 
         {
-            "location": "/1-Introduction/#knowledge-and-justification", 
+            "location": "/notes/1-introduction/#knowledge-and-justification", 
             "text": "Lecture 2 - January 6, 2017  definition:   Epistemology  is the investigation of what distinguishes justified belief from opinion.  Think about the knowledge we have of Mathematics. For example,   There are no positive numbers smaller than zero.   Why do we know this? How do we  justify  this knowledge?   Perceptual Knowledge , is based on your perception of the world.  e.g.,  Why do you think that book is blue?  My eyesight is good, and that's how I perceive is.  e.g.,  How do you know your dog loves you?  Here are some stories about my dog.", 
             "title": "Knowledge and Justification"
         }, 
         {
-            "location": "/1-Introduction/#a-priori-a-posteriori", 
+            "location": "/notes/1-introduction/#a-priori-a-posteriori", 
             "text": "definitions:   Something that is justified  a priori  uses theoretical deduction rather than from observation or experience (not  empirical ).  Something that is just justified  a posteriori  using reasoning or knowledge that proceeds from observations or experiences to the deduction of probable causes.", 
             "title": "A Priori &amp; A Posteriori"
         }, 
         {
-            "location": "/1-Introduction/#mathematics", 
+            "location": "/notes/1-introduction/#mathematics", 
             "text": "How would we  justify  things in Mathematics? We  prove  them using proofs.   Mathematical knowledge is  a priori .   In other words knowledge about math is not just true because someone said so. It can be independently constructed and deduced.", 
             "title": "Mathematics"
         }, 
         {
-            "location": "/1-Introduction/#the-nature-of-numbers", 
+            "location": "/notes/1-introduction/#the-nature-of-numbers", 
             "text": "definition:   Onology  examines the nature of ideas.  Numbers are  representations  of the physical world. But how do they relate to the physical world and how do we know how they relate?", 
             "title": "The Nature of Numbers"
         }, 
         {
-            "location": "/2-Freges-Logicism/", 
+            "location": "/notes/2-freges-logicism/", 
             "text": "Frege's Logicism\n\n\nWhat is the number one?\n\n\nFrege examines this question from a number of angles and uses it as an example extensively.\n\n\nFrege's Views\n\n\nFrege disagreed with several prior philosophers of how Mathematics were defined\n\n\n\n\nJohn Stuart Mill\n, who wanted to base Mathematical knowledge on empirical knowledge.\n\n\nImmanuel Kant\n, who suggested that there is some innate intuition in our minds that gives us definitions Mathematics.\n\n\n\n\nFrege thought instead the theories of Mathematics should be based on \nlogic\n. He developed a set of rules for this logic which he document in a book, \nBegriffsschrift\n.\n\n\nMuch of modern logic is based on Frege's work although \nhis notation\n has been mostly replaced by modern alternatives. Frege's system used some \nsecond-order logic\n.", 
-            "title": "2 Freges Logicism"
+            "title": "Frege's Logicism"
         }, 
         {
-            "location": "/2-Freges-Logicism/#freges-logicism", 
+            "location": "/notes/2-freges-logicism/#freges-logicism", 
             "text": "", 
             "title": "Frege's Logicism"
         }, 
         {
-            "location": "/2-Freges-Logicism/#what-is-the-number-one", 
+            "location": "/notes/2-freges-logicism/#what-is-the-number-one", 
             "text": "Frege examines this question from a number of angles and uses it as an example extensively.", 
             "title": "What is the number one?"
         }, 
         {
-            "location": "/2-Freges-Logicism/#freges-views", 
+            "location": "/notes/2-freges-logicism/#freges-views", 
             "text": "Frege disagreed with several prior philosophers of how Mathematics were defined   John Stuart Mill , who wanted to base Mathematical knowledge on empirical knowledge.  Immanuel Kant , who suggested that there is some innate intuition in our minds that gives us definitions Mathematics.   Frege thought instead the theories of Mathematics should be based on  logic . He developed a set of rules for this logic which he document in a book,  Begriffsschrift .  Much of modern logic is based on Frege's work although  his notation  has been mostly replaced by modern alternatives. Frege's system used some  second-order logic .", 
             "title": "Frege's Views"
         }, 
         {
-            "location": "/A-Logic/", 
-            "text": "Logic\n\n\nFirst-Order Logic\n\n\nPredicates\n\n\nWe write a \npredicate\n as $F(x)$ for some statement $F$ and some object $x$. For example, we could let $P(x)$ be the statement \"$x$ is even\" for some object $x$.\n\n\nSecond-Order Logic\n\n\nIn \nSecond-order Logic\n we can quantify over sets. For example we can write,\n\n\n\n\n\n    \\exists P \\exists x ~\\neg P(x)\n\n\n\n\n\nOr, there exists statement $P$ and there exists and object $x$ such that $P$ is false for $x$.", 
-            "title": "A Logic"
+            "location": "/appx/logic/", 
+            "text": "Logic\n\n\nFirst-Order Logic\n\n\nPredicates\n\n\nWe write a \npredicate\n as $F(x)$ for some statement $F$ and some object $x$. For example, we could let $P(x)$ be the statement \"$x$ is even\" for some object $x$.\n\n\nSecond-Order Logic\n\n\nIn \nSecond-order Logic\n we can quantify over sets. For example we can write,\n\n\n\n\n\n    \\exists P \\exists x ~\\neg P(x)\n\n\n\n\n\nOr, there exists statement $P$ and there exists and object $x$ such that $P$ is false for $x$.\n\n\nExamples\n\n\nThere are $0$ $F$'s, can be written as\n\n\n\n\n\n    \\neg \\exists x F(x)\n\n\n\n\n\nor in shorthand, $\\exists_0 x F(x)$.", 
+            "title": "Logic"
         }, 
         {
-            "location": "/A-Logic/#logic", 
+            "location": "/appx/logic/#logic", 
             "text": "", 
             "title": "Logic"
         }, 
         {
-            "location": "/A-Logic/#first-order-logic", 
+            "location": "/appx/logic/#first-order-logic", 
             "text": "", 
             "title": "First-Order Logic"
         }, 
         {
-            "location": "/A-Logic/#predicates", 
+            "location": "/appx/logic/#predicates", 
             "text": "We write a  predicate  as $F(x)$ for some statement $F$ and some object $x$. For example, we could let $P(x)$ be the statement \"$x$ is even\" for some object $x$.", 
             "title": "Predicates"
         }, 
         {
-            "location": "/A-Logic/#second-order-logic", 
+            "location": "/appx/logic/#second-order-logic", 
             "text": "In  Second-order Logic  we can quantify over sets. For example we can write,   \n    \\exists P \\exists x ~\\neg P(x)   Or, there exists statement $P$ and there exists and object $x$ such that $P$ is false for $x$.", 
             "title": "Second-Order Logic"
+        }, 
+        {
+            "location": "/appx/logic/#examples", 
+            "text": "There are $0$ $F$'s, can be written as   \n    \\neg \\exists x F(x)   or in shorthand, $\\exists_0 x F(x)$.", 
+            "title": "Examples"
         }
     ]
 }

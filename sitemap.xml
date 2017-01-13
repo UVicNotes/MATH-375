@@ -4,33 +4,35 @@
     
     <url>
      <loc>http://uvicnotes.github.io/MATH-375//</loc>
-     <lastmod>2017-01-11</lastmod>
+     <lastmod>2017-01-13</lastmod>
      <changefreq>daily</changefreq>
     </url>
     
 
     
+        
     <url>
-     <loc>http://uvicnotes.github.io/MATH-375//1-Introduction/</loc>
-     <lastmod>2017-01-11</lastmod>
+     <loc>http://uvicnotes.github.io/MATH-375//notes/1-introduction/</loc>
+     <lastmod>2017-01-13</lastmod>
      <changefreq>daily</changefreq>
     </url>
+        
+    <url>
+     <loc>http://uvicnotes.github.io/MATH-375//notes/2-freges-logicism/</loc>
+     <lastmod>2017-01-13</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
     
 
     
+        
     <url>
-     <loc>http://uvicnotes.github.io/MATH-375//2-Freges-Logicism/</loc>
-     <lastmod>2017-01-11</lastmod>
+     <loc>http://uvicnotes.github.io/MATH-375//appx/logic/</loc>
+     <lastmod>2017-01-13</lastmod>
      <changefreq>daily</changefreq>
     </url>
-    
-
-    
-    <url>
-     <loc>http://uvicnotes.github.io/MATH-375//A-Logic/</loc>
-     <lastmod>2017-01-11</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
+        
     
 
 </urlset>
