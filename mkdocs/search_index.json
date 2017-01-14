@@ -137,7 +137,7 @@
         }, 
         {
             "location": "/notes/2-freges-logicism/", 
-            "text": "Frege's Logicism\n\n\nWhat is the number one?\n\n\nFrege examines this question from a number of angles and uses it as an example extensively.\n\n\nFrege's Views\n\n\nFrege disagreed with several prior philosophers of how Mathematics were defined\n\n\n\n\nJohn Stuart Mill\n, who wanted to base Mathematical knowledge on empirical knowledge.\n\n\nImmanuel Kant\n, who suggested that there is some innate intuition in our minds that gives us definitions Mathematics.\n\n\n\n\nFrege thought instead the theories of Mathematics should be based on \nlogic\n. He developed a set of rules for this logic which he document in a book, \nBegriffsschrift\n.\n\n\nMuch of modern logic is based on Frege's work although \nhis notation\n has been mostly replaced by modern alternatives. Frege's system used some \nsecond-order logic\n.\n\n\nFrege's Logic\n\n\nIf $\\exists x_1 F(x)$ the $\\neg \\exists x_2 F(x)$, or \"If there exists exactly one thing that is $F$ than there are not two thing that are $F$\".\n\n\nProving a Conditional\n\n\nSuppose $\\exists x_1 F(x)$, so $\\exists x(F(x) \\wedge \\neg (F(y) \\wedge x \\neq y))$. Let $a$ be such that $F(a) \\wedge \\neq \\exists y(F(y) \\wedge a \\neq y)$.\n\n\nThis implies $\\neg \\exists y (F(a) \\wedge F(y) \\wedge a \\neq y)$. So $\\neg \\exists y(F(x) \\wedge F(y) \\wedge x \\neq y)$.\n\n\nEquality\n\n\nThe number of $F$'s is the same as the number of $G$'s.\n\n\n\n\n\n    \\exists_5 x F(x) \\wedge \\exists_5 x G(x)\n\n\n\n\n\n\"The number of $F$'s is 5 and the number of $G$'s is 5\". We want to write an \nequality\n statement, \"The number of $F$'s $=$ the number of $G$'s\".", 
+            "text": "Frege's Logicism\n\n\nWhat is the number one?\n\n\nFrege examines this question from a number of angles and uses it as an example extensively.\n\n\nFrege's Views\n\n\nFrege disagreed with several prior philosophers of how Mathematics were defined\n\n\n\n\nJohn Stuart Mill\n, who wanted to base Mathematical knowledge on empirical knowledge.\n\n\nImmanuel Kant\n, who suggested that there is some innate intuition in our minds that gives us definitions Mathematics.\n\n\n\n\nFrege thought instead the theories of Mathematics should be based on \nlogic\n. He developed a set of rules for this logic which he document in a book, \nBegriffsschrift\n.\n\n\nMuch of modern logic is based on Frege's work although \nhis notation\n has been mostly replaced by modern alternatives. Frege's system used some \nsecond-order logic\n.\n\n\nFrege's Logic\n\n\nIf $\\exists x_1 F(x)$ the $\\neg \\exists x_2 F(x)$, or \"If there exists exactly one thing that is $F$ than there are not two thing that are $F$\".\n\n\nProving a Conditional\n\n\nSuppose $\\exists x_1 F(x)$, so $\\exists x(F(x) \\wedge \\neg (F(y) \\wedge x \\neq y))$. Let $a$ be such that $F(a) \\wedge \\neq \\exists y(F(y) \\wedge a \\neq y)$.\n\n\nThis implies $\\neg \\exists y (F(a) \\wedge F(y) \\wedge a \\neq y)$. So $\\neg \\exists y(F(x) \\wedge F(y) \\wedge x \\neq y)$.\n\n\nEquinerousity\n\n\nThe number of $F$'s is the same as the number of $G$'s.\n\n\n\n\n\n    \\exists_5 x F(x) \\wedge \\exists_5 x G(x)\n\n\n\n\n\n\"The number of $F$'s is 5 and the number of $G$'s is 5\". We want to write an \nequality\n statement, \"The number of $F$'s $=$ the number of $G$'s\".\n\n\nFrege defined a relationship, \nequinerousity\n. This relation is a bijection between the two quantities. For example the above statement would be equivalent to \"$F$ is \nequinumerous\n with G\".\n\n\ndefinition\n: $F$ is \nequinumerous\n with $G$ when\n\n\n\n\n\n    \\exists R \\left[\n        \\forall x \\left( F(x) \\to \\exists_1 y \\left( R \\left( x,y \\right) \\right) \\wedge G(y) \\right)\n    \\wedge\n        \\forall x \\left( G(x) \\to \\exists_1 y \\left( R \\left( y,x \\right) \\right) \\wedge F(y) \\right)\n    \\right]\n\n\n\n\n\nwhere $R$ is a \nrelation\n from $F$ to $G$. Equinerousity is an \nequivalence relation\n (reflexive, symmetric and transitive).\n\n\nThe Julius Ceaser Problem\n\n\nIs Julius Ceaser the number one?", 
             "title": "Frege's Logicism"
         }, 
         {
@@ -166,13 +166,18 @@
             "title": "Proving a Conditional"
         }, 
         {
-            "location": "/notes/2-freges-logicism/#equality", 
-            "text": "The number of $F$'s is the same as the number of $G$'s.   \n    \\exists_5 x F(x) \\wedge \\exists_5 x G(x)   \"The number of $F$'s is 5 and the number of $G$'s is 5\". We want to write an  equality  statement, \"The number of $F$'s $=$ the number of $G$'s\".", 
-            "title": "Equality"
+            "location": "/notes/2-freges-logicism/#equinerousity", 
+            "text": "The number of $F$'s is the same as the number of $G$'s.   \n    \\exists_5 x F(x) \\wedge \\exists_5 x G(x)   \"The number of $F$'s is 5 and the number of $G$'s is 5\". We want to write an  equality  statement, \"The number of $F$'s $=$ the number of $G$'s\".  Frege defined a relationship,  equinerousity . This relation is a bijection between the two quantities. For example the above statement would be equivalent to \"$F$ is  equinumerous  with G\".  definition : $F$ is  equinumerous  with $G$ when   \n    \\exists R \\left[\n        \\forall x \\left( F(x) \\to \\exists_1 y \\left( R \\left( x,y \\right) \\right) \\wedge G(y) \\right)\n    \\wedge\n        \\forall x \\left( G(x) \\to \\exists_1 y \\left( R \\left( y,x \\right) \\right) \\wedge F(y) \\right)\n    \\right]   where $R$ is a  relation  from $F$ to $G$. Equinerousity is an  equivalence relation  (reflexive, symmetric and transitive).", 
+            "title": "Equinerousity"
+        }, 
+        {
+            "location": "/notes/2-freges-logicism/#the-julius-ceaser-problem", 
+            "text": "Is Julius Ceaser the number one?", 
+            "title": "The Julius Ceaser Problem"
         }, 
         {
             "location": "/appx/logic/", 
-            "text": "Logic\n\n\nFirst-Order Logic\n\n\nPredicates\n\n\nWe write a \npredicate\n as $F(x)$ for some statement $F$ and some object $x$. For example, we could let $P(x)$ be the statement \"$x$ is even\" for some object $x$.\n\n\nSecond-Order Logic\n\n\nIn \nSecond-order Logic\n we can quantify over sets. For example we can write,\n\n\n\n\n\n    \\exists P \\exists x ~\\neg P(x)\n\n\n\n\n\nOr, there exists statement $P$ and there exists and object $x$ such that $P$ is false for $x$.\n\n\nExamples\n\n\nThere are $0$ $F$'s, can be written as\n\n\n\n\n\n    \\neg \\exists x F(x)\n\n\n\n\n\nor in shorthand, $\\exists_0 x F(x)$.", 
+            "text": "Logic\n\n\nFirst-Order Logic\n\n\nPredicates\n\n\nWe write a \npredicate\n as $F(x)$ for some statement $F$ and some object $x$. For example, we could let $P(x)$ be the statement \"$x$ is even\" for some object $x$.\n\n\nSecond-Order Logic\n\n\nIn \nSecond-order Logic\n we can quantify over sets. For example we can write,\n\n\n\n\n\n    \\exists P \\exists x ~\\neg P(x)\n\n\n\n\n\nOr, there exists statement $P$ and there exists and object $x$ such that $P$ is false for $x$.\n\n\nExamples\n\n\nThere are $0$ $F$'s, can be written as\n\n\n\n\n\n    \\neg \\exists x F(x)\n\n\n\n\n\nor in shorthand, $\\exists_0 x F(x)$.\n\n\nRelations\n\n\ndefinition\n: A \nrelation\n relates to things to each other. For example $P$ \nis to the left of\n $Q$.", 
             "title": "Logic"
         }, 
         {
@@ -199,6 +204,11 @@
             "location": "/appx/logic/#examples", 
             "text": "There are $0$ $F$'s, can be written as   \n    \\neg \\exists x F(x)   or in shorthand, $\\exists_0 x F(x)$.", 
             "title": "Examples"
+        }, 
+        {
+            "location": "/appx/logic/#relations", 
+            "text": "definition : A  relation  relates to things to each other. For example $P$  is to the left of  $Q$.", 
+            "title": "Relations"
         }
     ]
 }
