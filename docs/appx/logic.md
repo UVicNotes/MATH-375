@@ -26,3 +26,7 @@ $$
 $$
 
 or in shorthand, $\exists_0 x F(x)$.
+
+## Relations
+
+_definition_: A **relation** relates to things to each other. For example $P$ *is to the left of* $Q$.

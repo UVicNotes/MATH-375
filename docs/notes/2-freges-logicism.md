@@ -25,7 +25,7 @@ Suppose $\exists x_1 F(x)$, so $\exists x(F(x) \wedge \neg (F(y) \wedge x \neq y
 
 This implies $\neg \exists y (F(a) \wedge F(y) \wedge a \neq y)$. So $\neg \exists y(F(x) \wedge F(y) \wedge x \neq y)$.
 
-### Equality
+### Equinerousity
 
 The number of $F$'s is the same as the number of $G$'s.
 
@@ -34,3 +34,23 @@ $$
 $$
 
 "The number of $F$'s is 5 and the number of $G$'s is 5". We want to write an **equality** statement, "The number of $F$'s $=$ the number of $G$'s".
+
+Frege defined a relationship, **equinerousity**. This relation is a bijection between the two quantities. For example the above statement would be equivalent to "$F$ is _equinumerous_ with G".
+
+
+
+_definition_: $F$ is **equinumerous** with $G$ when
+
+$$
+    \exists R \left[
+        \forall x \left( F(x) \to \exists_1 y \left( R \left( x,y \right) \right) \wedge G(y) \right)
+    \wedge
+        \forall x \left( G(x) \to \exists_1 y \left( R \left( y,x \right) \right) \wedge F(y) \right)
+    \right]
+$$
+
+where $R$ is a [relation](/appx/logic#relations) from $F$ to $G$. Equinerousity is an [equivalence relation](https://uvicnotes.github.io/MATH-122/notes/2-4-equivalence-relations/) (reflexive, symmetric and transitive).
+
+## The Julius Ceaser Problem
+
+Is Julius Ceaser the number one?
