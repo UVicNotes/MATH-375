@@ -1,7 +1,5 @@
 # Introduction
 
-**Lecture 1 - January 4, 2017**
-
 ## In this course
 
 Applying *philosophical methods* to mathematics. What are the questions that philosophy of math asks? There a lots of questions,
@@ -13,8 +11,6 @@ Applying *philosophical methods* to mathematics. What are the questions that phi
 In this course we're going to focus on the late 19^th and early 20^th century.
 
 ## Knowledge and Justification
-
-**Lecture 2 - January 6, 2017**
 
 _definition:_ **Epistemology** is the investigation of what distinguishes justified belief from opinion.
 
