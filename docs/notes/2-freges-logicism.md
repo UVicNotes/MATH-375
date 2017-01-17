@@ -37,8 +37,6 @@ $$
 
 Frege defined a relationship, **equinerousity**. This relation is a bijection between the two quantities. For example the above statement would be equivalent to "$F$ is _equinumerous_ with G".
 
-
-
 _definition_: $F$ is **equinumerous** with $G$ when
 
 $$

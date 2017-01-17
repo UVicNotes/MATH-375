@@ -19,15 +19,15 @@ The goal of this course is to give students a technical introduction to current 
 
 * **Topic**: Introduction to the Philosophy of Mathematics.
 * **Reading**: George and Velleman, Introduction.
-* [Notes](/1-Introduction)
+* [Notes](notes/1-Introduction)
 
-### *Week Two*: January 10, 11, 13
+### ~~Week Two: January 10, 11, 13~~
 
 * **Topic**: Frege’s Logicism.
 * **Reading**:
     * George and Velleman, Chapter 2.
     * Gottlob Frege, The Foundations of Arithmetic (Intro and Sections 55-87)
-* [Notes](/2-Freges-Logicism)
+* [Notes](notes/2-Freges-Logicism)
 
 ### Week Three: January 17, 18, 20
 
