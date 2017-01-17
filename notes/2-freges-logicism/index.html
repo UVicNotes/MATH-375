@@ -134,7 +134,7 @@
         
         <br>
         <a href="https://github.com/UVicNotes/MATH-375/commits/master" target="_blank" title="Last Updated">
-          Updated Jan 14, 2017
+          Updated Jan 17, 2017
         </a>
       </div>
     </div>
@@ -214,8 +214,26 @@
             </li>
           
             <li class="anchor">
+              <a title="Equinerousity" href="#equinerousity">
+                Equinerousity
+              </a>
+            </li>
+          
+            <li class="anchor">
               <a title="The Julius Ceaser Problem" href="#the-julius-ceaser-problem">
                 The Julius Ceaser Problem
+              </a>
+            </li>
+          
+            <li class="anchor">
+              <a title="Defining Numbers" href="#defining-numbers">
+                Defining Numbers
+              </a>
+            </li>
+          
+            <li class="anchor">
+              <a title="Succession" href="#succession">
+                Succession
               </a>
             </li>
           
@@ -280,7 +298,7 @@
 <h3 id="proving-a-conditional">Proving a Conditional</h3>
 <p>Suppose $\exists x_1 F(x)$, so $\exists x(F(x) \wedge \neg (F(y) \wedge x \neq y))$. Let $a$ be such that $F(a) \wedge \neq \exists y(F(y) \wedge a \neq y)$.</p>
 <p>This implies $\neg \exists y (F(a) \wedge F(y) \wedge a \neq y)$. So $\neg \exists y(F(x) \wedge F(y) \wedge x \neq y)$.</p>
-<h3 id="equinerousity">Equinerousity</h3>
+<h2 id="equinerousity">Equinerousity</h2>
 <p>The number of $F$'s is the same as the number of $G$'s.</p>
 <p>
 <script type="math/tex; mode=display">
@@ -302,6 +320,33 @@
 <p>where $R$ is a <a href="../../appx/logic#relations">relation</a> from $F$ to $G$. Equinerousity is an <a href="https://uvicnotes.github.io/MATH-122/notes/2-4-equivalence-relations/">equivalence relation</a> (reflexive, symmetric and transitive).</p>
 <h2 id="the-julius-ceaser-problem">The Julius Ceaser Problem</h2>
 <p>Is Julius Ceaser the number one?</p>
+<h2 id="defining-numbers">Defining Numbers</h2>
+<p>We can define numbers as follows,</p>
+<p>$$
+    \text{the number of $F$'s} = \text{the extension of the concept "equinumerous with $F$"}
+$$</p>
+<p><strong>Example</strong></p>
+<p>Let $F$ be the things on the table. There are three things on the table so the number of $F$'s is $3$. There are many sets equinumerous with $F$, for example</p>
+<ul>
+<li>the set ${1,2,3}$</li>
+<li>the set of primary colors</li>
+<li>the set of wheels on the triangle</li>
+</ul>
+<h3 id="theorem">Theorem</h3>
+<p>We can define the cardinal numbers as,</p>
+<p>Given $n$, $n$ is a number if and only if there is some $F$ such that the number of $F$'s is $n$.</p>
+<h3 id="counting-sets">Counting Sets</h3>
+<p>How do we know all the natural numbers exist?</p>
+<p>
+<script type="math/tex; mode=display">\begin{aligned}
+    &"x \neq x" ~\text{has number $0$} \\
+    &"\text{is identical to $0$}" ~\text{has the number $1$} \\
+    &"\text{is identical to $0$ or $1$}" ~\text{has the number $2$} \\
+    &~~~~~~~~~~~~\vdots \\
+\end{aligned}</script>
+</p>
+<h2 id="succession">Succession</h2>
+<p>The number of $F$'s <strong>succeeds</strong> the number of $G$'s if and only if there is an object $x$ falling under $F$ and the number of $G$'s is the number of the concept "falling under $F$ but not identical to $x$".</p>
           <aside class="copyright" role="note">
             
             Documentation built with
