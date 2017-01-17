@@ -25,7 +25,7 @@ Suppose $\exists x_1 F(x)$, so $\exists x(F(x) \wedge \neg (F(y) \wedge x \neq y
 
 This implies $\neg \exists y (F(a) \wedge F(y) \wedge a \neq y)$. So $\neg \exists y(F(x) \wedge F(y) \wedge x \neq y)$.
 
-### Equinerousity
+## Equinerousity
 
 The number of $F$'s is the same as the number of $G$'s.
 
@@ -52,3 +52,41 @@ where $R$ is a [relation](/appx/logic#relations) from $F$ to $G$. Equinerousity 
 ## The Julius Ceaser Problem
 
 Is Julius Ceaser the number one?
+
+## Defining Numbers
+
+We can define numbers as follows,
+
+$$
+    \text{the number of $F$'s} = \text{the extension of the concept "equinumerous with $F$"}
+$$
+
+**Example**
+
+Let $F$ be the things on the table. There are three things on the table so the number of $F$'s is $3$. There are many sets equinumerous with $F$, for example
+
+* the set ${1,2,3}$
+* the set of primary colors
+* the set of wheels on the triangle
+
+### Theorem
+
+We can define the cardinal numbers as,
+
+Given $n$, $n$ is a number if and only if there is some $F$ such that the number of $F$'s is $n$.
+
+### Counting Sets
+
+How do we know all the natural numbers exist?
+
+\begin{aligned}
+    &"x \neq x" ~\text{has number $0$} \\
+    &"\text{is identical to $0$}" ~\text{has the number $1$} \\
+    &"\text{is identical to $0$ or $1$}" ~\text{has the number $2$} \\
+    &~~~~~~~~~~~~\vdots \\
+\end{aligned}
+
+## Succession
+
+The number of $F$'s **succeeds** the number of $G$'s if and only if there is an object $x$ falling under $F$ and the number of $G$'s is the number of the concept "falling under $F$ but not identical to $x$".
+
