@@ -79,14 +79,65 @@ Given $n$, $n$ is a number if and only if there is some $F$ such that the number
 
 How do we know all the natural numbers exist?
 
+$$
 \begin{aligned}
     &"x \neq x" ~\text{has number $0$} \\
     &"\text{is identical to $0$}" ~\text{has the number $1$} \\
     &"\text{is identical to $0$ or $1$}" ~\text{has the number $2$} \\
     &~~~~~~~~~~~~\vdots \\
 \end{aligned}
+$$
 
 ## Succession
 
 The number of $F$'s **succeeds** the number of $G$'s if and only if there is an object $x$ falling under $F$ and the number of $G$'s is the number of the concept "falling under $F$ but not identical to $x$".
+
+**Example**
+
+Prove that
+
+$$
+    \forall x \forall y \forall z \left(\left( \mathcal S xz \wedge \mathcal S yz \right) \to x = y  \right)
+$$
+
+*Proof*
+
+Suppose $\mathcal S xz$ and $\mathcal S yz$. Then $z$ is the number of some concept $F$. Then there is something falling under $F$, call it $a$, where $x$ is the number of "falling under $F$ but not identical to $a$". Then there is also a $b$, where $y$ is the number of "falling under $F$ but not identical to $b$".
+
+For all $c$'s falling under $F$ where $c \neq a$ and $c \neq b$, let $\mathcal R cc$. If $a \neq b$ then $a$ falls under "falling under $F$ but not identical to $b$" and vice versa, so let $\mathcal R ab$. So since these are equinumerous, $x = y$.
+
+
+## Natural Numbers
+
+### Heredity and Preservation
+
+An concept, $F$, is hereditary with respect to successor or preserved with respect to successor if and only if
+
+$$
+    \forall x \forall y ( ( F(x) \wedge \mathcal S xy ) \to F(y) ).
+$$
+
+### Numbers
+
+$K$ is a natural number when
+
+$$
+    \forall F \Bigg( \bigg( F(0) \wedge \forall x \forall y \Big( \big( F(x) \wedge \mathcal S xy \big) \to F(y) \Big) \bigg) \to F(k) \Bigg)
+$$
+
+#### Zero
+
+Zero is a natural number. 
+
+*Proof*: Take any $F$. Suppose $F(0) \wedge \forall x \forall y \Big( \big( F(x) \wedge \mathcal S xy \big) \to F(y) \Big)$. Then $F(0)$.
+
+## The Peano Axioms
+
+0. $0$ is a natural number
+1. If $x$ is a natural number and $\mathcal Sxy$ the $y$ is a natural number.
+2. Every natural number if has a unique successor.
+3. $0$ is not the successor of any natural number.
+4. If $x \neq y$ and $x$  and $y$ are natural numbers, then the successor of $x$ is not the successor of $y$.
+
+These axioms are **categorical** or **isomorphic** since any model of the natural numbers following these axioms will have an identical structure.
 
