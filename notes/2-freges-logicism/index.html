@@ -134,7 +134,7 @@
         
         <br>
         <a href="https://github.com/UVicNotes/MATH-375/commits/master" target="_blank" title="Last Updated">
-          Updated Jan 17, 2017
+          Updated Jan 18, 2017
         </a>
       </div>
     </div>
@@ -234,6 +234,18 @@
             <li class="anchor">
               <a title="Succession" href="#succession">
                 Succession
+              </a>
+            </li>
+          
+            <li class="anchor">
+              <a title="Natural Numbers" href="#natural-numbers">
+                Natural Numbers
+              </a>
+            </li>
+          
+            <li class="anchor">
+              <a title="The Peano Axioms" href="#the-peano-axioms">
+                The Peano Axioms
               </a>
             </li>
           
@@ -337,16 +349,53 @@ $$</p>
 <p>Given $n$, $n$ is a number if and only if there is some $F$ such that the number of $F$'s is $n$.</p>
 <h3 id="counting-sets">Counting Sets</h3>
 <p>How do we know all the natural numbers exist?</p>
-<p>
+<p>$$
 <script type="math/tex; mode=display">\begin{aligned}
     &"x \neq x" ~\text{has number $0$} \\
     &"\text{is identical to $0$}" ~\text{has the number $1$} \\
     &"\text{is identical to $0$ or $1$}" ~\text{has the number $2$} \\
     &~~~~~~~~~~~~\vdots \\
 \end{aligned}</script>
-</p>
+$$</p>
 <h2 id="succession">Succession</h2>
 <p>The number of $F$'s <strong>succeeds</strong> the number of $G$'s if and only if there is an object $x$ falling under $F$ and the number of $G$'s is the number of the concept "falling under $F$ but not identical to $x$".</p>
+<p><strong>Example</strong></p>
+<p>Prove that</p>
+<p>
+<script type="math/tex; mode=display">
+    \forall x \forall y \forall z \left(\left( \mathcal S xz \wedge \mathcal S yz \right) \to x = y  \right)
+</script>
+</p>
+<p><em>Proof</em></p>
+<p>Suppose $\mathcal S xz$ and $\mathcal S yz$. Then $z$ is the number of some concept $F$. Then there is something falling under $F$, call it $a$, where $x$ is the number of "falling under $F$ but not identical to $a$". Then there is also a $b$, where $y$ is the number of "falling under $F$ but not identical to $b$".</p>
+<p>For all $c$'s falling under $F$ where $c \neq a$ and $c \neq b$, let $\mathcal R cc$. If $a \neq b$ then $a$ falls under "falling under $F$ but not identical to $b$" and vice versa, so let $\mathcal R ab$. So since these are equinumerous, $x = y$.</p>
+<h2 id="natural-numbers">Natural Numbers</h2>
+<h3 id="heredity-and-preservation">Heredity and Preservation</h3>
+<p>An concept, $F$, is hereditary with respect to successor or preserved with respect to successor if and only if</p>
+<p>
+<script type="math/tex; mode=display">
+    \forall x \forall y ( ( F(x) \wedge \mathcal S xy ) \to F(y) ).
+</script>
+</p>
+<h3 id="numbers">Numbers</h3>
+<p>$K$ is a natural number when</p>
+<p>
+<script type="math/tex; mode=display">
+    \forall F \Bigg( \bigg( F(0) \wedge \forall x \forall y \Big( \big( F(x) \wedge \mathcal S xy \big) \to F(y) \Big) \bigg) \to F(k) \Bigg)
+</script>
+</p>
+<h4 id="zero">Zero</h4>
+<p>Zero is a natural number. </p>
+<p><em>Proof</em>: Take any $F$. Suppose $F(0) \wedge \forall x \forall y \Big( \big( F(x) \wedge \mathcal S xy \big) \to F(y) \Big)$. Then $F(0)$.</p>
+<h2 id="the-peano-axioms">The Peano Axioms</h2>
+<ol>
+<li>$0$ is a natural number</li>
+<li>If $x$ is a natural number and $\mathcal Sxy$ the $y$ is a natural number.</li>
+<li>Every natural number if has a unique successor.</li>
+<li>$0$ is not the successor of any natural number.</li>
+<li>If $x \neq y$ and $x$  and $y$ are natural numbers, then the successor of $x$ is not the successor of $y$.</li>
+</ol>
+<p>These axioms are <strong>categorical</strong> or <strong>isomorphic</strong> since any model of the natural numbers following these axioms will have an identical structure.</p>
           <aside class="copyright" role="note">
             
             Documentation built with
