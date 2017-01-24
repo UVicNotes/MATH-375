@@ -10,6 +10,7 @@ pages:
 - Notes:
     - 'Introduction': 'notes/1-introduction.md'
     - "Frege's Logicism": 'notes/2-freges-logicism.md'
+    - "Set Theory": 'notes/3-set-theory.md'
 - Appendices:
     - 'Logic': 'appx/logic.md'
 extra_javascript:

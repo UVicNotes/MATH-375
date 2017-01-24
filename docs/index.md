@@ -29,7 +29,7 @@ The goal of this course is to give students a technical introduction to current 
     * Gottlob Frege, The Foundations of Arithmetic (Intro and Sections 55-87)
 * [Notes](notes/2-Freges-Logicism)
 
-### Week Three: January 17, 18, 20
+### ~~Week Three: January 17, 18, 20~~
 
 * **Topic**: Frege’s Logicism.
 * **Reading**:
