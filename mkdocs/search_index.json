@@ -221,6 +221,16 @@
             "title": "The Peano Axioms"
         }, 
         {
+            "location": "/notes/3-set-theory/", 
+            "text": "Set Theory", 
+            "title": "Set Theory"
+        }, 
+        {
+            "location": "/notes/3-set-theory/#set-theory", 
+            "text": "", 
+            "title": "Set Theory"
+        }, 
+        {
             "location": "/appx/logic/", 
             "text": "Logic\n\n\nFirst-Order Logic\n\n\nPredicates\n\n\nWe write a \npredicate\n as $F(x)$ for some statement $F$ and some object $x$. For example, we could let $P(x)$ be the statement \"$x$ is even\" for some object $x$.\n\n\nSecond-Order Logic\n\n\nIn \nSecond-order Logic\n we can quantify over sets. For example we can write,\n\n\n\n\n\n    \\exists P \\exists x ~\\neg P(x)\n\n\n\n\n\nOr, there exists statement $P$ and there exists and object $x$ such that $P$ is false for $x$.\n\n\nExamples\n\n\nThere are $0$ $F$'s, can be written as\n\n\n\n\n\n    \\neg \\exists x F(x)\n\n\n\n\n\nor in shorthand, $\\exists_0 x F(x)$.\n\n\nRelations\n\n\ndefinition\n: A \nrelation\n relates to things to each other. For example $P$ \nis to the left of\n $Q$.", 
             "title": "Logic"
