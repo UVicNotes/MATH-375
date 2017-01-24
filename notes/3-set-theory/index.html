@@ -205,8 +205,8 @@
         <ul>
           
             <li class="anchor">
-              <a title="Sets  More notes" href="#sets-more-notes">
-                Sets  More notes
+              <a title="Sets " href="#sets">
+                Sets 
               </a>
             </li>
           
@@ -268,7 +268,7 @@
         <div class="wrapper">
           
           <h1 id="set-theory">Set Theory<a class="headerlink" href="#set-theory" title="Permanent link">&para;</a></h1>
-<h2 id="sets-more-notes">Sets <a href="https://uvicnotes.github.io/MATH-122/notes/2-1-sets/"><small><i aria-hidden="true" class="icon icon-book"></i> More notes</small></a><a class="headerlink" href="#sets-more-notes" title="Permanent link">&para;</a></h2>
+<h2 id="sets">Sets <a href="https://uvicnotes.github.io/MATH-122/notes/2-1-sets/"><small><i aria-hidden="true" class="icon icon-book"></i></small></a><a class="headerlink" href="#sets" title="Permanent link">&para;</a></h2>
 <ul>
 <li>Sets can be defined by listing their elements, e.g., $S = {0,1,2,3}$ is a set.</li>
 <li>Set are completely defined by their elements, e.g., ${0,1} = {1,0}$.</li>
@@ -276,6 +276,41 @@
 <li>We can state whether or not elements are in set, e.g., $2 \in S$ or $4 \not\in S$.</li>
 <li>We say $S \subseteq T$ if and only if every element of $S$ is also and element of $T$.</li>
 </ul>
+<h3 id="union-and-intersection">Union and Intersection<a class="headerlink" href="#union-and-intersection" title="Permanent link">&para;</a></h3>
+<p>Given two sets $A$ and $B$, we define the <strong>union</strong> as,</p>
+<p>
+<script type="math/tex; mode=display">
+    A \cup B = \{ x | x \in A \vee x \in B \}.
+</script>
+</p>
+<p>Given two sets $A$ and $B$, we define the <strong>intersection</strong> as,</p>
+<p>
+<script type="math/tex; mode=display">
+    A \cup B = \{ x | x \in A \wedge x \in B \}.
+</script>
+</p>
+<h3 id="power-sets">Power Sets<a class="headerlink" href="#power-sets" title="Permanent link">&para;</a></h3>
+<p>Given a set $A$ , the <strong>power set</strong> of a set $A$ (denoted $\mathcal{P}(A)$) is the set whose elements are the subsets of $A$, i.e,</p>
+<p>
+<script type="math/tex; mode=display">
+    \mathcal P(A) = \{ x | x \subseteq A \}.
+</script>
+</p>
+<p><strong>Example</strong></p>
+<p>Let $A = { a, b, }$. What is the power set of $A$?</p>
+<p>Subsets of $A$ are:</p>
+<ul>
+<li>${ a }$</li>
+<li>${ b }$</li>
+<li>${ a, b }$</li>
+<li>$\emptyset$</li>
+</ul>
+<p><strong><em>Solution</em></strong></p>
+<p>
+<script type="math/tex; mode=display">
+    \mathcal{P}(A) = \{\{ a \}, \{ b \}, \{ a, b \}, \emptyset \}
+</script>
+</p>
 <h2 id="russells-paradox">Russell&rsquo;s Paradox <a href="https://en.wikipedia.org/wiki/Russell's_paradox"><small><i aria-hidden="true" class="icon icon-wikipedia"></i></small></a><a class="headerlink" href="#russells-paradox" title="Permanent link">&para;</a></h2>
 <p>Consider the set,</p>
 <p>
@@ -290,6 +325,7 @@
 </ol>
 <p>Therefore $R \in R$ if and only if $R \not\in R$.</p>
 <h2 id="zermelofraenkel-set-theory">Zermelo–Fraenkel Set Theory <a href="https://en.wikipedia.org/wiki/Zermelo%E2%80%93Fraenkel_set_theory"><small><i aria-hidden="true" class="icon icon-wikipedia"></i></small></a><a class="headerlink" href="#zermelofraenkel-set-theory" title="Permanent link">&para;</a></h2>
+<p>The <strong>Zermelo–Fraenkel Choice (ZFC)</strong> is an axiomatic approach for defining sets.</p>
           <aside class="copyright" role="note">
             
             Documentation built with

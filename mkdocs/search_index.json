@@ -222,7 +222,7 @@
         }, 
         {
             "location": "/notes/3-set-theory/", 
-            "text": "Set Theory\n\n\nSets \n More notes\n\n\n\n\nSets can be defined by listing their elements, e.g., $S = {0,1,2,3}$ is a set.\n\n\nSet are completely defined by their elements, e.g., ${0,1} = {1,0}$.\n\n\nSets can be defined by using criteria, e.g., ${ x | x \\in \\mathbb N  \\wedge x \n 4}$.\n\n\nWe can state whether or not elements are in set, e.g., $2 \\in S$ or $4 \\not\\in S$.\n\n\nWe say $S \\subseteq T$ if and only if every element of $S$ is also and element of $T$.\n\n\n\n\nRussell\ns Paradox \n\n\nConsider the set,\n\n\n\n\n\n    R = \\{ x | x \\not\\in x \\}\n\n\n\n\n\nis $R \\in R$? We have two options\n\n\n\n\n$R \\in R$ then $R$ falls under $x \\not\\in x$, so $R \\not\\in R$.\n\n\n$R \\not\\in R$ then $R$, since for $x = R$, $x \\not\\in x$, $R \\in R$.\n\n\n\n\nTherefore $R \\in R$ if and only if $R \\not\\in R$.\n\n\nZermelo\u2013Fraenkel Set Theory", 
+            "text": "Set Theory\n\n\nSets \n\n\n\n\nSets can be defined by listing their elements, e.g., $S = {0,1,2,3}$ is a set.\n\n\nSet are completely defined by their elements, e.g., ${0,1} = {1,0}$.\n\n\nSets can be defined by using criteria, e.g., ${ x | x \\in \\mathbb N  \\wedge x \n 4}$.\n\n\nWe can state whether or not elements are in set, e.g., $2 \\in S$ or $4 \\not\\in S$.\n\n\nWe say $S \\subseteq T$ if and only if every element of $S$ is also and element of $T$.\n\n\n\n\nUnion and Intersection\n\n\nGiven two sets $A$ and $B$, we define the \nunion\n as,\n\n\n\n\n\n    A \\cup B = \\{ x | x \\in A \\vee x \\in B \\}.\n\n\n\n\n\nGiven two sets $A$ and $B$, we define the \nintersection\n as,\n\n\n\n\n\n    A \\cup B = \\{ x | x \\in A \\wedge x \\in B \\}.\n\n\n\n\n\nPower Sets\n\n\nGiven a set $A$ , the \npower set\n of a set $A$ (denoted $\\mathcal{P}(A)$) is the set whose elements are the subsets of $A$, i.e,\n\n\n\n\n\n    \\mathcal P(A) = \\{ x | x \\subseteq A \\}.\n\n\n\n\n\nExample\n\n\nLet $A = { a, b, }$. What is the power set of $A$?\n\n\nSubsets of $A$ are:\n\n\n\n\n${ a }$\n\n\n${ b }$\n\n\n${ a, b }$\n\n\n$\\emptyset$\n\n\n\n\nSolution\n\n\n\n\n\n    \\mathcal{P}(A) = \\{\\{ a \\}, \\{ b \\}, \\{ a, b \\}, \\emptyset \\}\n\n\n\n\n\nRussell\ns Paradox \n\n\nConsider the set,\n\n\n\n\n\n    R = \\{ x | x \\not\\in x \\}\n\n\n\n\n\nis $R \\in R$? We have two options\n\n\n\n\n$R \\in R$ then $R$ falls under $x \\not\\in x$, so $R \\not\\in R$.\n\n\n$R \\not\\in R$ then $R$, since for $x = R$, $x \\not\\in x$, $R \\in R$.\n\n\n\n\nTherefore $R \\in R$ if and only if $R \\not\\in R$.\n\n\nZermelo\u2013Fraenkel Set Theory \n\n\nThe \nZermelo\u2013Fraenkel Choice (ZFC)\n is an axiomatic approach for defining sets.", 
             "title": "Set Theory"
         }, 
         {
@@ -231,9 +231,19 @@
             "title": "Set Theory"
         }, 
         {
-            "location": "/notes/3-set-theory/#sets-more-notes", 
+            "location": "/notes/3-set-theory/#sets", 
             "text": "Sets can be defined by listing their elements, e.g., $S = {0,1,2,3}$ is a set.  Set are completely defined by their elements, e.g., ${0,1} = {1,0}$.  Sets can be defined by using criteria, e.g., ${ x | x \\in \\mathbb N  \\wedge x   4}$.  We can state whether or not elements are in set, e.g., $2 \\in S$ or $4 \\not\\in S$.  We say $S \\subseteq T$ if and only if every element of $S$ is also and element of $T$.", 
-            "title": "Sets  More notes"
+            "title": "Sets "
+        }, 
+        {
+            "location": "/notes/3-set-theory/#union-and-intersection", 
+            "text": "Given two sets $A$ and $B$, we define the  union  as,   \n    A \\cup B = \\{ x | x \\in A \\vee x \\in B \\}.   Given two sets $A$ and $B$, we define the  intersection  as,   \n    A \\cup B = \\{ x | x \\in A \\wedge x \\in B \\}.", 
+            "title": "Union and Intersection"
+        }, 
+        {
+            "location": "/notes/3-set-theory/#power-sets", 
+            "text": "Given a set $A$ , the  power set  of a set $A$ (denoted $\\mathcal{P}(A)$) is the set whose elements are the subsets of $A$, i.e,   \n    \\mathcal P(A) = \\{ x | x \\subseteq A \\}.   Example  Let $A = { a, b, }$. What is the power set of $A$?  Subsets of $A$ are:   ${ a }$  ${ b }$  ${ a, b }$  $\\emptyset$   Solution   \n    \\mathcal{P}(A) = \\{\\{ a \\}, \\{ b \\}, \\{ a, b \\}, \\emptyset \\}", 
+            "title": "Power Sets"
         }, 
         {
             "location": "/notes/3-set-theory/#russells-paradox", 
@@ -242,7 +252,7 @@
         }, 
         {
             "location": "/notes/3-set-theory/#zermelofraenkel-set-theory", 
-            "text": "", 
+            "text": "The  Zermelo\u2013Fraenkel Choice (ZFC)  is an axiomatic approach for defining sets.", 
             "title": "Zermelo\u2013Fraenkel Set Theory "
         }, 
         {
