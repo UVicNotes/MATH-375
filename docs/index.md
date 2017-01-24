@@ -2,10 +2,10 @@
 
 ## [Coursespaces](https://coursespaces.uvic.ca/course/view.php?id=28004)
 
-* __Instructor__: Audrey Yap
-* __Office__: CLE B307
-* __Email__: [ayap@uvic.ca](mailto:ayap@uvic.ca)
-* __Office Hours__:
+* &icon-face; __Instructor__: Audrey Yap
+* &icon-pin-account; __Office__: CLE B307
+* &icon-email; __Email__:  [ayap@uvic.ca](mailto:ayap@uvic.ca)
+* &icon-time; __Office Hours__:
     * Tuesdays, 11:30 AM to 12:30 PM
     * Thursdays, 10:30 AM to 11:30 AM
 
