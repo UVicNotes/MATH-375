@@ -134,7 +134,7 @@
         
         <br>
         <a href="https://github.com/UVicNotes/MATH-375/commits/master" target="_blank" title="Last Updated">
-          Updated Jan 24, 2017
+          Updated Jan 25, 2017
         </a>
       </div>
     </div>
@@ -219,6 +219,12 @@
             <li class="anchor">
               <a title="Zermelo–Fraenkel Set Theory " href="#zermelofraenkel-set-theory">
                 Zermelo–Fraenkel Set Theory 
+              </a>
+            </li>
+          
+            <li class="anchor">
+              <a title="Restricting Sets" href="#restricting-sets">
+                Restricting Sets
               </a>
             </li>
           
@@ -326,6 +332,42 @@
 <p>Therefore $R \in R$ if and only if $R \not\in R$.</p>
 <h2 id="zermelofraenkel-set-theory">Zermelo–Fraenkel Set Theory <a href="https://en.wikipedia.org/wiki/Zermelo%E2%80%93Fraenkel_set_theory"><small><i aria-hidden="true" class="icon icon-wikipedia"></i></small></a><a class="headerlink" href="#zermelofraenkel-set-theory" title="Permanent link">&para;</a></h2>
 <p>The <strong>Zermelo–Fraenkel Choice (ZFC)</strong> is an axiomatic approach for defining sets.</p>
+<h2 id="restricting-sets">Restricting Sets<a class="headerlink" href="#restricting-sets" title="Permanent link">&para;</a></h2>
+<p>We can restrict our definition of sets by not allowing <strong>impredicative</strong> (<a href="https://en.wikipedia.org/wiki/Impredicativity"><i aria-hidden="true" class="icon icon-wikipedia"></i></a>) definitions, i.e., definitions that reference themselves. For example,</p>
+<p>
+<script type="math/tex; mode=display">
+    R = \{ x | x \not\in x \}
+</script>
+</p>
+<p>is impredicative since it references $x$ to define $x$.</p>
+<p>This restriction however can be too aggressive removing many otherwise viable sets.</p>
+<h3 id="comprehension">Comprehension<a class="headerlink" href="#comprehension" title="Permanent link">&para;</a></h3>
+<p>Let $\ell (x)$ be a formula with free variable $x$. So,</p>
+<p>definitions that reference themselves. For example, given</p>
+<p>
+<script type="math/tex; mode=display">
+    \{ x | \ell(x) \}
+</script>
+</p>
+<p>then $\ell(x)$ cannot be impredicative. Consider,</p>
+<p>
+<script type="math/tex; mode=display">
+    \forall y \exists z \forall x \big( x \in z \leftrightarrow \big( x \in y \wedge \ell(x) \big)  \big)
+</script>
+</p>
+<p>the <strong>comprehension</strong> (<a href="https://en.wikipedia.org/wiki/Set-builder_notation"><i aria-hidden="true" class="icon icon-wikipedia"></i></a>) restricts that $x$ must already be in an existing set, specifically $y$.</p>
+<h3 id="hierarchy-of-sets">Hierarchy of Sets <a href="https://en.wikipedia.org/wiki/Von_Neumann_universe"><small><i aria-hidden="true" class="icon icon-wikipedia"></i></small></a><a class="headerlink" href="#hierarchy-of-sets" title="Permanent link">&para;</a></h3>
+<p>We can define the hierarchy of sets as follows,</p>
+<p>
+<script type="math/tex; mode=display">\begin{aligned}
+    V_0 &= \varnothing \newline
+    V_1 &= V_0 \cup \mathcal P(V_0) \newline
+    V_2 &= V_1 \cup \mathcal P(V_1) \newline
+    &~~\vdots \newline
+    V_{n+1} &= V_n \cup \mathcal P(V_n) \newline
+\end{aligned}</script>
+</p>
+<p><img alt="hierarchy of sets" src="https://upload.wikimedia.org/wikipedia/commons/8/83/Von_Neumann_universe_4.png" /></p>
           <aside class="copyright" role="note">
             
             Documentation built with
