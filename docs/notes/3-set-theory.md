@@ -67,6 +67,51 @@ Therefore $R \in R$ if and only if $R \not\in R$.
 
 The **Zermelo–Fraenkel Choice (ZFC)** is an axiomatic approach for defining sets.
 
+## Restricting Sets
+
+We can restrict our definition of sets by not allowing **impredicative** ([&icon-wikipedia;](https://en.wikipedia.org/wiki/Impredicativity)) definitions, i.e., definitions that reference themselves. For example,
+
+$$
+    R = \{ x | x \not\in x \}
+$$
+
+is impredicative since it references $x$ to define $x$.
+
+This restriction however can be too aggressive removing many otherwise viable sets.
+
+### Comprehension
+
+Let $\ell (x)$ be a formula with free variable $x$. So,
+
+definitions that reference themselves. For example, given
+
+$$
+    \{ x | \ell(x) \}
+$$
+
+then $\ell(x)$ cannot be impredicative. Consider,
+
+$$
+    \forall y \exists z \forall x \big( x \in z \leftrightarrow \big( x \in y \wedge \ell(x) \big)  \big)
+$$
+
+the **comprehension** ([&icon-wikipedia;](https://en.wikipedia.org/wiki/Set-builder_notation)) restricts that $x$ must already be in an existing set, specifically $y$.
+
+### Hierarchy of Sets [<small>&icon-wikipedia;</small>](https://en.wikipedia.org/wiki/Von_Neumann_universe)
+
+We can define the hierarchy of sets as follows,
+
+$$\begin{aligned}
+    V_0 &= \varnothing \newline
+    V_1 &= V_0 \cup \mathcal P(V_0) \newline
+    V_2 &= V_1 \cup \mathcal P(V_1) \newline
+    &~~\vdots \newline
+    V_{n+1} &= V_n \cup \mathcal P(V_n) \newline
+\end{aligned}$$
+
+![hierarchy of sets](https://upload.wikimedia.org/wikipedia/commons/8/83/Von_Neumann_universe_4.png)
+
+
 
 
 
