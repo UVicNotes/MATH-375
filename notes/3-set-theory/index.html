@@ -134,7 +134,7 @@
         
         <br>
         <a href="https://github.com/UVicNotes/MATH-375/commits/master" target="_blank" title="Last Updated">
-          Updated Jan 25, 2017
+          Updated Jan 27, 2017
         </a>
       </div>
     </div>
@@ -225,6 +225,12 @@
             <li class="anchor">
               <a title="Restricting Sets" href="#restricting-sets">
                 Restricting Sets
+              </a>
+            </li>
+          
+            <li class="anchor">
+              <a title="Succession with Sets" href="#succession-with-sets">
+                Succession with Sets
               </a>
             </li>
           
@@ -368,6 +374,42 @@
 \end{aligned}</script>
 </p>
 <p><img alt="hierarchy of sets" src="https://upload.wikimedia.org/wikipedia/commons/8/83/Von_Neumann_universe_4.png" /></p>
+<h2 id="succession-with-sets">Succession with Sets<a class="headerlink" href="#succession-with-sets" title="Permanent link">&para;</a></h2>
+<p>We can use this to define succession,</p>
+<p>
+<script type="math/tex; mode=display">\begin{aligned}
+    0 &= \varnothing \newline
+    S(0) &= \varnothing \cup S(\varnothing) \newline
+    S(S(0)) &= S(0) \cup  \{ S(0) \} \newline
+    &~~\vdots \newline
+    S(n) &= n \cup  \{ n \}. \newline
+\end{aligned}</script>
+</p>
+<p>This definition has several useful axiomatic properties,</p>
+<ul>
+<li>$n \in { n }$</li>
+<li>$n \in A \to n \in (A \cup B)$</li>
+<li>$n \in { n } \to n \in ( A \cup { n })$</li>
+<li>$n \in S(n)$</li>
+</ul>
+<h3 id="natural-numbers">Natural Numbers<a class="headerlink" href="#natural-numbers" title="Permanent link">&para;</a></h3>
+<p>We can define the natural numbers as the <em>intersection</em> of all the sets that</p>
+<ol>
+<li>contain zero,</li>
+<li>are preserved under succession.</li>
+</ol>
+<p>That is, $k$ is a natural number, $k \in \mathbb N$ when, for every $F$ that contains $0$ and is hereditary with respect to successor, $k \in F$.</p>
+<p><strong>Example</strong></p>
+<p>*Show, if $n \in \mathbb N$ then $Sn \in \mathbb N$.</p>
+<p>Let $n \in \mathbb N$ and take any $F$ that contains $0$ and is hereditary with respect to successor. But since $n \in \mathbb N$, $n \in F$. $F$ is hereditary with respect to successor so $Sn \in F$.</p>
+<h3 id="addition">Addition<a class="headerlink" href="#addition" title="Permanent link">&para;</a></h3>
+<p>Let $m$ be any natural number,</p>
+<p>
+<script type="math/tex; mode=display">\begin{aligned}
+    m + 0 &= m \newline
+    M + S(n) &= S(m + n) \newline
+\end{aligned}</script>
+</p>
           <aside class="copyright" role="note">
             
             Documentation built with
