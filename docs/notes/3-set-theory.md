@@ -111,8 +111,45 @@ $$\begin{aligned}
 
 ![hierarchy of sets](https://upload.wikimedia.org/wikipedia/commons/8/83/Von_Neumann_universe_4.png)
 
+## Succession with Sets
 
+We can use this to define succession,
 
+$$\begin{aligned}
+    0 &= \varnothing \newline
+    S(0) &= \varnothing \cup S(\varnothing) \newline
+    S(S(0)) &= S(0) \cup  \{ S(0) \} \newline
+    &~~\vdots \newline
+    S(n) &= n \cup  \{ n \}. \newline
+\end{aligned}$$
 
+This definition has several useful axiomatic properties,
 
+* $n \in \{ n \}$
+* $n \in A \to n \in (A \cup B)$
+* $n \in \{ n \} \to n \in ( A \cup \{ n \})$
+* $n \in S(n)$
 
+### Natural Numbers
+
+We can define the natural numbers as the *intersection* of all the sets that
+
+1. contain zero,
+2. are preserved under succession.
+
+That is, $k$ is a natural number, $k \in \mathbb N$ when, for every $F$ that contains $0$ and is hereditary with respect to successor, $k \in F$.
+
+**Example**
+
+*Show, if $n \in \mathbb N$ then $Sn \in \mathbb N$.
+
+Let $n \in \mathbb N$ and take any $F$ that contains $0$ and is hereditary with respect to successor. But since $n \in \mathbb N$, $n \in F$. $F$ is hereditary with respect to successor so $Sn \in F$.
+
+### Addition
+
+Let $m$ be any natural number,
+
+$$\begin{aligned}
+    m + 0 &= m \newline
+    M + S(n) &= S(m + n) \newline
+\end{aligned}$$
