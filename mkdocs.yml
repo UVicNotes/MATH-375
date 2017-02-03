@@ -5,6 +5,9 @@ site_url: http://uvicnotes.github.io/MATH-375/
 repo_url: https://github.com/UVicNotes/MATH-375
 site_description: Course Notes for MATH 375 - Philosophy of Mathematics
 site_author: Brynn Hawker
+google_analytics:
+  - 'UA-91401009-1'
+  - 'auto'
 pages:
 - Home: 'index.md'
 - Notes:
