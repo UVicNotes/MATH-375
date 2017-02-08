@@ -141,7 +141,7 @@ That is, $k$ is a natural number, $k \in \mathbb N$ when, for every $F$ that con
 
 **Example**
 
-*Show, if $n \in \mathbb N$ then $Sn \in \mathbb N$.
+*Show, if $n \in \mathbb N$ then $Sn \in \mathbb N$.*
 
 Let $n \in \mathbb N$ and take any $F$ that contains $0$ and is hereditary with respect to successor. But since $n \in \mathbb N$, $n \in F$. $F$ is hereditary with respect to successor so $Sn \in F$.
 
@@ -154,6 +154,15 @@ $$\begin{aligned}
     M + S(n) &= S(m + n) \newline
 \end{aligned}$$
 
+## Cardinality
+
+We use $|X|$ to to denote the number of elements in the set $X$. We denote the cardinality of the natural numbers as *aleph naught*, i.e.,
+
+$$\begin{aligned}
+    | \mathbb N | &= \aleph_0 \newline
+    | \mathbb R | &= | \mathcal P ( \mathbb N) | = 2^{\aleph_0}. \newline
+\end{aligned}$$
+
 ## Cantor's Continuum Hypothesis
 
 Consider the natural numbers, $\mathbb N$. You can take an infinite subset, say the odd natural numbers, and since you can put these in one-to-one correspondence with the natural numbers they are of the same cardinality.  
@@ -161,3 +170,8 @@ Consider the natural numbers, $\mathbb N$. You can take an infinite subset, say 
 The **Continuum Hypothesis** states,
 
 > There is no set whose cardinality is between that of the natural numbers, $\mathbb N$, and the real numbers, $\mathbb R$.
+
+We say that the continuum hypothesis is *independent* of ZFC, i.e., it cannot be proven or disproven using the Zermelo–Fraenkel axioms plus the axiom of choice. This comes from two results,
+
+1. Gödel showed that we can have ZFC with the continuum hypothesis being **false**.
+1. Cohen showed that we can have ZFC with the continuum hypothesis being **true**.
