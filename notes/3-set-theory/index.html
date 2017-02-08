@@ -235,6 +235,12 @@
             </li>
           
             <li class="anchor">
+              <a title="Cardinality" href="#cardinality">
+                Cardinality
+              </a>
+            </li>
+          
+            <li class="anchor">
               <a title="Cantor's Continuum Hypothesis" href="#cantors-continuum-hypothesis">
                 Cantor's Continuum Hypothesis
               </a>
@@ -406,7 +412,7 @@
 </ol>
 <p>That is, $k$ is a natural number, $k \in \mathbb N$ when, for every $F$ that contains $0$ and is hereditary with respect to successor, $k \in F$.</p>
 <p><strong>Example</strong></p>
-<p>*Show, if $n \in \mathbb N$ then $Sn \in \mathbb N$.</p>
+<p><em>Show, if $n \in \mathbb N$ then $Sn \in \mathbb N$.</em></p>
 <p>Let $n \in \mathbb N$ and take any $F$ that contains $0$ and is hereditary with respect to successor. But since $n \in \mathbb N$, $n \in F$. $F$ is hereditary with respect to successor so $Sn \in F$.</p>
 <h3 id="addition">Addition<a class="headerlink" href="#addition" title="Permanent link">&para;</a></h3>
 <p>Let $m$ be any natural number,</p>
@@ -416,12 +422,25 @@
     M + S(n) &= S(m + n) \newline
 \end{aligned}</script>
 </p>
+<h2 id="cardinality">Cardinality<a class="headerlink" href="#cardinality" title="Permanent link">&para;</a></h2>
+<p>We use $|X|$ to to denote the number of elements in the set $X$. We denote the cardinality of the natural numbers as <em>aleph naught</em>, i.e.,</p>
+<p>
+<script type="math/tex; mode=display">\begin{aligned}
+    | \mathbb N | &= \aleph_0 \newline
+    | \mathbb R | &= | \mathcal P ( \mathbb N) | = 2^{\aleph_0}. \newline
+\end{aligned}</script>
+</p>
 <h2 id="cantors-continuum-hypothesis">Cantor&rsquo;s Continuum Hypothesis<a class="headerlink" href="#cantors-continuum-hypothesis" title="Permanent link">&para;</a></h2>
 <p>Consider the natural numbers, $\mathbb N$. You can take an infinite subset, say the odd natural numbers, and since you can put these in one-to-one correspondence with the natural numbers they are of the same cardinality.  </p>
 <p>The <strong>Continuum Hypothesis</strong> states,</p>
 <blockquote>
 <p>There is no set whose cardinality is between that of the natural numbers, $\mathbb N$, and the real numbers, $\mathbb R$.</p>
 </blockquote>
+<p>We say that the continuum hypothesis is <em>independent</em> of ZFC, i.e., it cannot be proven or disproven using the Zermelo–Fraenkel axioms plus the axiom of choice. This comes from two results,</p>
+<ol>
+<li>Gödel showed that we can have ZFC with the continuum hypothesis being <strong>false</strong>.</li>
+<li>Cohen showed that we can have ZFC with the continuum hypothesis being <strong>true</strong>.</li>
+</ol>
           <aside class="copyright" role="note">
             
             Documentation built with
