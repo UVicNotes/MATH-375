@@ -154,6 +154,49 @@ $$\begin{aligned}
     M + S(n) &= S(m + n) \newline
 \end{aligned}$$
 
+### Multiplication
+
+Let $m$ be any natural number,
+
+$$\begin{aligned}
+    m \cdot 0 &= m \newline
+    m \cdot S(n) &= m \cdot n + m \newline
+\end{aligned}$$
+
+**Example**
+
+*Prove, for any $m, n, k \in \mathbb N$, $m \cdot (n + k) = m \cdot n + m \cdot k$.*
+
+Let $m, n \in \mathbb N$.
+
+(Base) Consider $k = 0$,
+
+$$\begin{aligned}
+    m \cdot ( n + 0 ) &= m \cdot n \newline
+    &= m \cdot n + m \cdot 0. \newline
+\end{aligned}$$
+
+(Induction Hypothesis) Suppose $m \cdot (n + k) = m \cdot n + m \cdot k$ for some $k \ge 0$.
+
+(Induction Step) Consider $S(k)$,
+
+$$\begin{aligned}
+    m \cdot ( n + S(k) ) &= m \cdot S(n + k) \newline
+    &= m \cdot (n + k) + m \newline
+    &= m \cdot n + m \cdot k + m \newline
+    &= m \cdot n + m \cdot S(k) \newline
+\end{aligned}$$
+
+Therefore, by induction, $m \cdot (n + k) = m \cdot n + m \cdot k$ for all $k \in \mathbb N$.
+
+### Inequality
+
+Given $m,n \in \mathbb N$,
+
+$m < n$
+
+when there is some $k \neq 0$ such that $m + k = n$.
+
 ## Cardinality
 
 We use $|X|$ to to denote the number of elements in the set $X$. We denote the cardinality of the natural numbers as *aleph naught*, i.e.,
