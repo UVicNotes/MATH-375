@@ -159,7 +159,7 @@ $$\begin{aligned}
 Let $m$ be any natural number,
 
 $$\begin{aligned}
-    m \cdot 0 &= m \newline
+    m \cdot 0 &= 0 \newline
     m \cdot S(n) &= m \cdot n + m \newline
 \end{aligned}$$
 
@@ -208,7 +208,7 @@ $$\begin{aligned}
 
 ## Cantor's Continuum Hypothesis
 
-Consider the natural numbers, $\mathbb N$. You can take an infinite subset, say the odd natural numbers, and since you can put these in one-to-one correspondence with the natural numbers they are of the same cardinality.  
+Consider the natural numbers, $\mathbb N$. You can take an infinite subset, say the odd natural numbers, and since you can put these in one-to-one correspondence with the natural numbers they are of the same cardinality.
 
 The **Continuum Hypothesis** states,
 
