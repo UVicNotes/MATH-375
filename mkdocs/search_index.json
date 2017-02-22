@@ -307,13 +307,28 @@
         }, 
         {
             "location": "/notes/4-intuitionism/", 
-            "text": "Intuitionism\n\n\nIntuitionism is motivated by philosophical problems. The intuitionists view of infinite sets is that they are human constructions.", 
+            "text": "Intuitionism\n\n\nIntuitionism is motivated by philosophical problems. The intuitionists view of infinite sets is that they are human constructions.\n\n\nLogic\n\n\nExample\n\n\nConsider,\n\n\n\n\n\n    A \\wedge B\n\n\n\n\n\nIn classical logic, you might say \nBoth $A$ and $B$ are true\n. But the intuitionist says \nI have a proof for $A$ and a proof for $B$\n.\n\n\nOperations\n\n\n\n\n$A \\wedge B$ \n \nI have a proof for $A$ and a proof for $B$\n\n\n$A \\vee B$ \n \nI have a proof for $A$ or I have a proof for $B$\n\n\n$\\neg A$ \n \nI can prove $A$ leads to a $\\perp$\n\n\n$A \\to B$ \n \nIf I can prove $A$ then I have a proof of $B$\n\n\n\n\nExample\n\n\nConsider,\n\n\n\n\n\n    A \\vee \\neg A\n\n\n\n\n\nIf I can\nt prove $A$ can I prove that $A$ leads to $\\perp$? Not necessarily. Yay intuitionism.\n\n\nQuantification\n\n\n\n\n$\\forall x F x$ \n \nI can prove $Fn$ for any number $n$\n\n\n$\\exists x F x$ \n \nI can prove $Fn$ for some specific $n$", 
             "title": "Intuitionism"
         }, 
         {
             "location": "/notes/4-intuitionism/#intuitionism", 
             "text": "Intuitionism is motivated by philosophical problems. The intuitionists view of infinite sets is that they are human constructions.", 
             "title": "Intuitionism"
+        }, 
+        {
+            "location": "/notes/4-intuitionism/#logic", 
+            "text": "Example  Consider,   \n    A \\wedge B   In classical logic, you might say  Both $A$ and $B$ are true . But the intuitionist says  I have a proof for $A$ and a proof for $B$ .", 
+            "title": "Logic"
+        }, 
+        {
+            "location": "/notes/4-intuitionism/#operations", 
+            "text": "$A \\wedge B$    I have a proof for $A$ and a proof for $B$  $A \\vee B$    I have a proof for $A$ or I have a proof for $B$  $\\neg A$    I can prove $A$ leads to a $\\perp$  $A \\to B$    If I can prove $A$ then I have a proof of $B$   Example  Consider,   \n    A \\vee \\neg A   If I can t prove $A$ can I prove that $A$ leads to $\\perp$? Not necessarily. Yay intuitionism.", 
+            "title": "Operations"
+        }, 
+        {
+            "location": "/notes/4-intuitionism/#quantification", 
+            "text": "$\\forall x F x$    I can prove $Fn$ for any number $n$  $\\exists x F x$    I can prove $Fn$ for some specific $n$", 
+            "title": "Quantification"
         }, 
         {
             "location": "/appx/logic/", 
