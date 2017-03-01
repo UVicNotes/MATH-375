@@ -35,3 +35,9 @@ If I can't prove $A$ can I prove that $A$ leads to $\perp$? Not necessarily. Yay
 
 * $\forall x F x$ &ndash; "I can prove $Fn$ for any number $n$"
 * $\exists x F x$ &ndash; "I can prove $Fn$ for some specific $n$"
+
+## Real Numbers
+
+We can generate the fractions, $\mathbb Q$, using the natural numbers. For the fractions, if $a < b$, there is some $c$ such that $a < c < b$.
+
+A **cut** in $\mathbb Q$ is a pair of disjoint sets $A$, $B$ such that $A \cup B = \mathbb Q$, $A \cap B = \varnothing$, and $\forall x \in A \forall y \in B, x < y$.
