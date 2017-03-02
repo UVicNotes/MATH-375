@@ -134,7 +134,7 @@
         
         <br>
         <a href="https://github.com/UVicNotes/MATH-375/commits/master" target="_blank" title="Last Updated">
-          Updated Mar 1, 2017
+          Updated Mar 2, 2017
         </a>
       </div>
     </div>
@@ -304,6 +304,25 @@
 <h2 id="real-numbers">Real Numbers<a class="headerlink" href="#real-numbers" title="Permanent link">&para;</a></h2>
 <p>We can generate the fractions, $\mathbb Q$, using the natural numbers. For the fractions, if $a &lt; b$, there is some $c$ such that $a &lt; c &lt; b$.</p>
 <p>A <strong>cut</strong> in $\mathbb Q$ is a pair of disjoint sets $A$, $B$ such that $A \cup B = \mathbb Q$, $A \cap B = \varnothing$, and $\forall x \in A \forall y \in B, x &lt; y$.</p>
+<h3 id="cauchy-sequences">Cauchy Sequences<a class="headerlink" href="#cauchy-sequences" title="Permanent link">&para;</a></h3>
+<p>${ a_n }$ is Cauchy when:</p>
+<p>
+<script type="math/tex; mode=display">
+    \forall k \in \mathbb Z^+ \exists N \in \mathbb Z^+ \forall m,n >N \left( | a_m - a_n| < \frac{1}{k} \right)
+</script>
+</p>
+<p>then, </p>
+<p>
+<script type="math/tex; mode=display">
+    a_k = \left\{
+      \begin{array}{lr}
+        1 &\text{ if } P(k) \newline
+        0 &\text{ otherwise }  \newline
+      \end{array}
+    \right.
+</script>
+</p>
+<p>where $P(k)$ is the statement &ldquo;$k$ is the smallest even number greater then $2$ that cannot be written as the sum of two primes&rdquo;.</p>
           <aside class="copyright" role="note">
             
             Documentation built with
