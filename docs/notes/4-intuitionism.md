@@ -41,3 +41,24 @@ If I can't prove $A$ can I prove that $A$ leads to $\perp$? Not necessarily. Yay
 We can generate the fractions, $\mathbb Q$, using the natural numbers. For the fractions, if $a < b$, there is some $c$ such that $a < c < b$.
 
 A **cut** in $\mathbb Q$ is a pair of disjoint sets $A$, $B$ such that $A \cup B = \mathbb Q$, $A \cap B = \varnothing$, and $\forall x \in A \forall y \in B, x < y$.
+
+### Cauchy Sequences
+
+$\{ a_n \}$ is Cauchy when:
+
+$$
+    \forall k \in \mathbb Z^+ \exists N \in \mathbb Z^+ \forall m,n >N \left( | a_m - a_n| < \frac{1}{k} \right)
+$$
+
+then, 
+
+$$
+    a_k = \left\{
+      \begin{array}{lr}
+        1 &\text{ if } P(k) \newline
+        0 &\text{ otherwise }  \newline
+      \end{array}
+    \right.
+$$
+
+where $P(k)$ is the statement "$k$ is the smallest even number greater then $2$ that cannot be written as the sum of two primes".
