@@ -341,6 +341,21 @@
             "title": "Cauchy Sequences"
         }, 
         {
+            "location": "/notes/5-consistency/", 
+            "text": "Consistency\n\n\nWe define \nsyntax\n or \nsemantics\n as the notation used to communicate mathematical reasoning.\n\n\nSyntactic Completeness\n\n\n$S$ is \nsyntactically complete\n if, for every formula $A$, either $S \\vdash A$ or $S \\vdash \\neg A$.", 
+            "title": "Consistency"
+        }, 
+        {
+            "location": "/notes/5-consistency/#consistency", 
+            "text": "We define  syntax  or  semantics  as the notation used to communicate mathematical reasoning.", 
+            "title": "Consistency"
+        }, 
+        {
+            "location": "/notes/5-consistency/#syntactic-completeness", 
+            "text": "$S$ is  syntactically complete  if, for every formula $A$, either $S \\vdash A$ or $S \\vdash \\neg A$.", 
+            "title": "Syntactic Completeness"
+        }, 
+        {
             "location": "/appx/logic/", 
             "text": "Logic\n\n\nFirst-Order Logic\n\n\nPredicates\n\n\nWe write a \npredicate\n as $F(x)$ for some statement $F$ and some object $x$. For example, we could let $P(x)$ be the statement \n$x$ is even\n for some object $x$.\n\n\nSecond-Order Logic\n\n\nIn \nSecond-order Logic\n we can quantify over sets. For example we can write,\n\n\n\n\n\n    \\exists P \\exists x ~\\neg P(x)\n\n\n\n\n\nOr, there exists statement $P$ and there exists and object $x$ such that $P$ is false for $x$.\n\n\nExamples\n\n\nThere are $0$ $F$\ns, can be written as\n\n\n\n\n\n    \\neg \\exists x F(x)\n\n\n\n\n\nor in shorthand, $\\exists_0 x F(x)$.\n\n\nRelations\n\n\ndefinition\n: A \nrelation\n relates to things to each other. For example $P$ \nis to the left of\n $Q$.", 
             "title": "Logic"

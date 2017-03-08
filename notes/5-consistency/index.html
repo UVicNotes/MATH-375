@@ -9,21 +9,21 @@
     <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1,maximum-scale=1">
     
       
-        <title>Intuitionism - MATH 375</title>
+        <title>Consistency - MATH 375</title>
       
       
         <meta name="description" content="Course Notes for MATH 375 - Philosophy of Mathematics">
       
       
-        <link rel="canonical" href="http://uvicnotes.github.io/MATH-375/notes/4-intuitionism/">
+        <link rel="canonical" href="http://uvicnotes.github.io/MATH-375/notes/5-consistency/">
       
       
         <meta name="author" content="Brynn Hawker">
       
     
-    <meta property="og:url" content="http://uvicnotes.github.io/MATH-375/notes/4-intuitionism/">
+    <meta property="og:url" content="http://uvicnotes.github.io/MATH-375/notes/5-consistency/">
     <meta property="og:title" content="MATH 375">
-    <meta property="og:image" content="http://uvicnotes.github.io/MATH-375/notes/4-intuitionism//../../">
+    <meta property="og:image" content="http://uvicnotes.github.io/MATH-375/notes/5-consistency//../../">
     <meta name="apple-mobile-web-app-title" content="MATH 375">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
@@ -85,7 +85,7 @@
             
           </span>
         
-        Intuitionism
+        Consistency
       </div>
     </div>
     
@@ -203,8 +203,17 @@
       
         
   <li>
-    <a class="current" title="Intuitionism" href="./">
+    <a class="" title="Intuitionism" href="../4-intuitionism/">
       Intuitionism
+    </a>
+    
+  </li>
+
+      
+        
+  <li>
+    <a class="current" title="Consistency" href="./">
+      Consistency
     </a>
     
       
@@ -214,28 +223,13 @@
         <ul>
           
             <li class="anchor">
-              <a title="Logic" href="#logic">
-                Logic
-              </a>
-            </li>
-          
-            <li class="anchor">
-              <a title="Real Numbers" href="#real-numbers">
-                Real Numbers
+              <a title="Syntactic Completeness" href="#syntactic-completeness">
+                Syntactic Completeness
               </a>
             </li>
           
         </ul>
       
-    
-  </li>
-
-      
-        
-  <li>
-    <a class="" title="Consistency" href="../5-consistency/">
-      Consistency
-    </a>
     
   </li>
 
@@ -279,59 +273,10 @@
       <article class="article">
         <div class="wrapper">
           
-          <h1 id="intuitionism">Intuitionism<a class="headerlink" href="#intuitionism" title="Permanent link">&para;</a></h1>
-<p>Intuitionism is motivated by philosophical problems. The intuitionists view of infinite sets is that they are human constructions.</p>
-<h2 id="logic">Logic<a class="headerlink" href="#logic" title="Permanent link">&para;</a></h2>
-<p><strong>Example</strong></p>
-<p>Consider,</p>
-<p>
-<script type="math/tex; mode=display">
-    A \wedge B
-</script>
-</p>
-<p>In classical logic, you might say &ldquo;Both $A$ and $B$ are true&rdquo;. But the intuitionist says &ldquo;I have a proof for $A$ and a proof for $B$&rdquo;.</p>
-<h3 id="operations">Operations<a class="headerlink" href="#operations" title="Permanent link">&para;</a></h3>
-<ul>
-<li>$A \wedge B$ &ndash; &ldquo;I have a proof for $A$ and a proof for $B$&rdquo;</li>
-<li>$A \vee B$ &ndash; &ldquo;I have a proof for $A$ or I have a proof for $B$&rdquo;</li>
-<li>$\neg A$ &ndash; &ldquo;I can prove $A$ leads to a $\perp$&rdquo;</li>
-<li>$A \to B$ &ndash; &ldquo;If I can prove $A$ then I have a proof of $B$&rdquo;</li>
-</ul>
-<p><strong>Example</strong></p>
-<p>Consider,</p>
-<p>
-<script type="math/tex; mode=display">
-    A \vee \neg A
-</script>
-</p>
-<p>If I can&rsquo;t prove $A$ can I prove that $A$ leads to $\perp$? Not necessarily. Yay intuitionism.</p>
-<h3 id="quantification">Quantification<a class="headerlink" href="#quantification" title="Permanent link">&para;</a></h3>
-<ul>
-<li>$\forall x F x$ &ndash; &ldquo;I can prove $Fn$ for any number $n$&rdquo;</li>
-<li>$\exists x F x$ &ndash; &ldquo;I can prove $Fn$ for some specific $n$&rdquo;</li>
-</ul>
-<h2 id="real-numbers">Real Numbers<a class="headerlink" href="#real-numbers" title="Permanent link">&para;</a></h2>
-<p>We can generate the fractions, $\mathbb Q$, using the natural numbers. For the fractions, if $a &lt; b$, there is some $c$ such that $a &lt; c &lt; b$.</p>
-<p>A <strong>cut</strong> in $\mathbb Q$ is a pair of disjoint sets $A$, $B$ such that $A \cup B = \mathbb Q$, $A \cap B = \varnothing$, and $\forall x \in A \forall y \in B, x &lt; y$.</p>
-<h3 id="cauchy-sequences">Cauchy Sequences<a class="headerlink" href="#cauchy-sequences" title="Permanent link">&para;</a></h3>
-<p>${ a_n }$ is Cauchy when:</p>
-<p>
-<script type="math/tex; mode=display">
-    \forall k \in \mathbb Z^+ \exists N \in \mathbb Z^+ \forall m,n >N \left( | a_m - a_n| < \frac{1}{k} \right)
-</script>
-</p>
-<p>then, </p>
-<p>
-<script type="math/tex; mode=display">
-    a_k = \left\{
-      \begin{array}{lr}
-        1 &\text{ if } P(k) \newline
-        0 &\text{ otherwise }  \newline
-      \end{array}
-    \right.
-</script>
-</p>
-<p>where $P(k)$ is the statement &ldquo;$k$ is the smallest even number greater then $2$ that cannot be written as the sum of two primes&rdquo;.</p>
+          <h1 id="consistency">Consistency<a class="headerlink" href="#consistency" title="Permanent link">&para;</a></h1>
+<p>We define <strong>syntax</strong> or <strong>semantics</strong> as the notation used to communicate mathematical reasoning.</p>
+<h2 id="syntactic-completeness">Syntactic Completeness<a class="headerlink" href="#syntactic-completeness" title="Permanent link">&para;</a></h2>
+<p>$S$ is <strong>syntactically complete</strong> if, for every formula $A$, either $S \vdash A$ or $S \vdash \neg A$.</p>
           <aside class="copyright" role="note">
             
             Documentation built with
@@ -348,7 +293,7 @@
   <nav class="pagination" aria-label="Footer">
     <div class="previous">
       
-        <a href="../3-set-theory/" title="Set Theory">
+        <a href="../4-intuitionism/" title="Intuitionism">
           <span class="direction">
             Previous
           </span>
@@ -358,7 +303,7 @@
             </div>
             <div class="stretch">
               <div class="title">
-                Set Theory
+                Intuitionism
               </div>
             </div>
           </div>
@@ -367,14 +312,14 @@
     </div>
     <div class="next">
       
-        <a href="../5-consistency/" title="Consistency">
+        <a href="../../appx/logic/" title="Logic">
           <span class="direction">
             Next
           </span>
           <div class="page">
             <div class="stretch">
               <div class="title">
-                Consistency
+                Logic
               </div>
             </div>
             <div class="button button-next" role="button" aria-label="Next">
