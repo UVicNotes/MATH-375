@@ -15,6 +15,7 @@ pages:
     - "Frege's Logicism": 'notes/2-freges-logicism.md'
     - "Set Theory": 'notes/3-set-theory.md'
     - "Intuitionism": 'notes/4-intuitionism.md'
+    - "Consistency": 'notes/5-consistency.md'
 - Appendices:
     - 'Logic': 'appx/logic.md'
 extra_javascript:
