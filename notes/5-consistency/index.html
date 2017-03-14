@@ -134,7 +134,7 @@
         
         <br>
         <a href="https://github.com/UVicNotes/MATH-375/commits/master" target="_blank" title="Last Updated">
-          Updated Mar 8, 2017
+          Updated Mar 14, 2017
         </a>
       </div>
     </div>
@@ -228,6 +228,12 @@
               </a>
             </li>
           
+            <li class="anchor">
+              <a title="Peano Arithmetic" href="#peano-arithmetic">
+                Peano Arithmetic
+              </a>
+            </li>
+          
         </ul>
       
     
@@ -277,6 +283,58 @@
 <p>We define <strong>syntax</strong> or <strong>semantics</strong> as the notation used to communicate mathematical reasoning.</p>
 <h2 id="syntactic-completeness">Syntactic Completeness<a class="headerlink" href="#syntactic-completeness" title="Permanent link">&para;</a></h2>
 <p>$S$ is <strong>syntactically complete</strong> if, for every formula $A$, either $S \vdash A$ or $S \vdash \neg A$.</p>
+<h2 id="peano-arithmetic">Peano Arithmetic<a class="headerlink" href="#peano-arithmetic" title="Permanent link">&para;</a></h2>
+<p>Peano Arithmetic has <strong>axioms</strong>, which are facts that always hold true, and <strong>rules</strong>, which allow the inference of ideas.</p>
+<p>We can define the natural numbers as</p>
+<p>
+<script type="math/tex; mode=display">\begin{aligned}
+    O &= 0 \newline
+    S(O) = SO &= 1 \newline
+    SSO = S^2O &= 2 \newline
+    &~~\vdots \newline
+\end{aligned}</script>
+</p>
+<p>Using Peano Arithmatic, $PA$,</p>
+<p>
+<script type="math/tex; mode=display">\begin{aligned}
+     PA &\vdash S^2 O + S^3 O = S^5 O \newline
+     PA &\vdash \neg( S^2 O + S^3 O = S^6 O). \newline
+\end{aligned}</script>
+</p>
+<h3 id="representation-and-decidability">Representation and Decidability<a class="headerlink" href="#representation-and-decidability" title="Permanent link">&para;</a></h3>
+<p>A set $A \subseteq \mathbb N$ is <strong>representable</strong> when there is some formula $P(x)$ such that</p>
+<p>
+<script type="math/tex; mode=display">\begin{aligned}
+     \text{if } n \in A \text{, then } PA &\vdash P(n) \newline
+     \text{if } n \not\in A \text{, then } PA &\vdash \neg P(n). \newline
+\end{aligned}</script>
+</p>
+<p>A set $A$ is <strong>decidable</strong> I
+f there is an algorithm for determining whether $n \in A$.</p>
+<h3 id="godel-numbering">Gödel Numbering<a class="headerlink" href="#godel-numbering" title="Permanent link">&para;</a></h3>
+<p>Given any number, there exists a unique prime factorization. Given a set of operators,</p>
+<p>
+<script type="math/tex; mode=display">
+    ~\underset { 0} {\wedge}
+    ~\underset { 1} {\vee}
+    ~\underset { 2} {\neg }
+    ~\underset { 3} {\to}
+    ~\underset { 4} {\iff}
+    ~\underset { 5} {\forall}
+    ~\underset { 6} {\exists}
+    ~\underset { 7} {(}
+    ~\underset { 8} {)}
+    ~\underset { 9} {=}
+    ~\underset {10} {0}
+    ~\underset {11} {S}
+    ~\underset {12} {<}
+    ~\underset {13} {+}
+    ~\underset {14} {\cdot}
+    ~\underset {15} {x_1}
+    ~\ldots
+    ~\underset {14 + n} {x_n}
+</script>
+</p>
           <aside class="copyright" role="note">
             
             Documentation built with
