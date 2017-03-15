@@ -43,22 +43,23 @@ f there is an algorithm for determining whether $n \in A$.
 Given any number, there exists a unique prime factorization. Given a set of operators,
 
 $$
-    ~\underset { 0} {\wedge}
-    ~\underset { 1} {\vee}
-    ~\underset { 2} {\neg }
-    ~\underset { 3} {\to}
-    ~\underset { 4} {\iff}
-    ~\underset { 5} {\forall}
-    ~\underset { 6} {\exists}
-    ~\underset { 7} {(}
-    ~\underset { 8} {)}
-    ~\underset { 9} {=}
-    ~\underset {10} {0}
-    ~\underset {11} {S}
-    ~\underset {12} {<}
-    ~\underset {13} {+}
-    ~\underset {14} {\cdot}
-    ~\underset {15} {x_1}
+    ~\underset { 0} {\vphantom{()} \wedge}
+    ~\underset { 1} {\vphantom{()} \vee}
+    ~\underset { 2} {\vphantom{()} \neg }
+    ~\underset { 3} {\vphantom{()} \to}
+    ~\underset { 4} {\vphantom{()} \iff}
+    ~\underset { 5} {\vphantom{()} \forall}
+    ~\underset { 6} {\vphantom{()} \exists}
+    ~\underset { 7} {\vphantom{()} (}
+    ~\underset { 8} {\vphantom{()} )}
+    ~\underset { 9} {\vphantom{()} =}
+    ~\underset {10} {\vphantom{()} 0}
+    ~\underset {11} {\vphantom{()} S}
+    ~\underset {12} {\vphantom{()} <}
+    ~\underset {13} {\vphantom{()} +}
+    ~\underset {14} {\vphantom{()} \cdot}
+    ~\underset {15} {\vphantom{()} x_1}
     ~\ldots
     ~\underset {14 + n} {x_n}
 $$
+
