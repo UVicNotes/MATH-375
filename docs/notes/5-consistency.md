@@ -38,7 +38,7 @@ $$\begin{aligned}
 A set $A$ is **decidable** I
 f there is an algorithm for determining whether $n \in A$.
 
-### Gödel Numbering
+## Gödel Numbering
 
 Given any number, there exists a unique prime factorization. Given a set of operators,
 
@@ -61,5 +61,33 @@ $$
     ~\underset {15} {\vphantom{()} x_1}
     ~\ldots
     ~\underset {14 + n} {x_n}
+$$
+
+we can construct the Gödel number of any formula or equation by encoding the sequence $(x_1, x_2, \ldots, x_n)$ as
+
+$$
+    \text{enc}(x_1, x_2, \ldots, x_n) = 2^{x_1} \cdot 3^{x_2} \cdot 5^{x_3} \cdot \ldots \cdot p_n ^{x_n}
+$$
+
+where $p_i$ is the $i^\text{th}$ prime number. 
+
+
+
+Let $\lceil \zeta \rceil$ be the Gödel number of $\zeta$ and let,
+
+$$
+    \text{diag} \big(\lceil \zeta \rceil \big) = \Big\lceil \exists x_1 \big( x_1 = \lceil \zeta \rceil \wedge \zeta(x_1) \big) \Big\rceil.
+$$
+
+For example,
+
+$$
+    \text{diag} \big(\lceil \text{wff} \rceil \big) = \Big\lceil \exists x_1 \big( x_1 = \lceil \text{wff} \rceil \wedge \text{wff}(x_1) \big) \Big\rceil.
+$$
+
+Now define,
+
+$$
+    \text{gdl} \big(\lceil \zeta \rceil \big) = \Big\lceil \exists x_1 \big( x_1 = \lceil \zeta \rceil \wedge \zeta(x_1) \big) \Big\rceil.
 $$
 
