@@ -71,23 +71,43 @@ $$
 
 where $p_i$ is the $i^\text{th}$ prime number. 
 
+### Diagonalization
 
-
-Let $\lceil \zeta \rceil$ be the Gödel number of $\zeta$ and let,
+Let $\ulcorner \varphi \urcorner$ be the Gödel number of $\varphi$ and let,
 
 $$
-    \text{diag} \big(\lceil \zeta \rceil \big) = \Big\lceil \exists x_1 \big( x_1 = \lceil \zeta \rceil \wedge \zeta(x_1) \big) \Big\rceil.
+    \text{diag} \big(\ulcorner \varphi \urcorner \big) = \Big\ulcorner \exists x_1 \big( x_1 = \ulcorner \varphi \urcorner \wedge \varphi(x_1) \big) \Big\urcorner.
 $$
 
 For example,
 
 $$
-    \text{diag} \big(\lceil \text{wff} \rceil \big) = \Big\lceil \exists x_1 \big( x_1 = \lceil \text{wff} \rceil \wedge \text{wff}(x_1) \big) \Big\rceil.
+    \text{diag} \big(\ulcorner \text{wff} \urcorner \big) = \Big\ulcorner \exists x_1 \big( x_1 = \ulcorner \text{wff} \urcorner \wedge \text{wff}(x_1) \big) \Big\urcorner.
 $$
 
-Now define,
+### Omega-Consistency
+
+A theory $T$ is $\omega$-consistent when, for some $\varphi$,
 
 $$
-    \text{gdl} \big(\lceil \zeta \rceil \big) = \Big\lceil \exists x_1 \big( x_1 = \lceil \zeta \rceil \wedge \zeta(x_1) \big) \Big\rceil.
+    T \vdash \exists x \varphi (x)
 $$
 
+but, for every $n$,
+
+$$
+    T \vdash \neg \varphi (S^n O).
+$$
+
+For example, suppose $\mathbb N \cup \{ \text{puppy} \}$. Then $\exists x  ~ \text{Cute}(x)$ but $\neg ~ \text{Cute}(S^n O)$ for all $n \in \mathbb N$.
+
+### Inconsistency
+
+**Claim:** If $T$ is a decidable extension of $PA$, then:
+
+1. If $T$ is consistent, then $T \not\vdash G$, and,
+1. If $T$ is $\omega$-consistent, then $T \not\vdash \neg G$.
+
+<!-- TODO
+Suppose $PA$ is consistent. If $PA \vdash G$, then the proof has some number, say $m$. Then $PA \vdash \text{Proof} ( m, \ulcorner G \urcorner )$, so $PA \vdash \text{Proof} ( m, \text{diag}( \ulcorner U \urcorner ))$.
+-->
