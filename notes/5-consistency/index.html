@@ -134,7 +134,7 @@
         
         <br>
         <a href="https://github.com/UVicNotes/MATH-375/commits/master" target="_blank" title="Last Updated">
-          Updated Mar 21, 2017
+          Updated Mar 22, 2017
         </a>
       </div>
     </div>
@@ -348,24 +348,42 @@ f there is an algorithm for determining whether $n \in A$.</p>
 </script>
 </p>
 <p>where $p_i$ is the $i^\text{th}$ prime number. </p>
-<p>Let $\lceil \zeta \rceil$ be the Gödel number of $\zeta$ and let,</p>
+<h3 id="diagonalization">Diagonalization<a class="headerlink" href="#diagonalization" title="Permanent link">&para;</a></h3>
+<p>Let $\ulcorner \varphi \urcorner$ be the Gödel number of $\varphi$ and let,</p>
 <p>
 <script type="math/tex; mode=display">
-    \text{diag} \big(\lceil \zeta \rceil \big) = \Big\lceil \exists x_1 \big( x_1 = \lceil \zeta \rceil \wedge \zeta(x_1) \big) \Big\rceil.
+    \text{diag} \big(\ulcorner \varphi \urcorner \big) = \Big\ulcorner \exists x_1 \big( x_1 = \ulcorner \varphi \urcorner \wedge \varphi(x_1) \big) \Big\urcorner.
 </script>
 </p>
 <p>For example,</p>
 <p>
 <script type="math/tex; mode=display">
-    \text{diag} \big(\lceil \text{wff} \rceil \big) = \Big\lceil \exists x_1 \big( x_1 = \lceil \text{wff} \rceil \wedge \text{wff}(x_1) \big) \Big\rceil.
+    \text{diag} \big(\ulcorner \text{wff} \urcorner \big) = \Big\ulcorner \exists x_1 \big( x_1 = \ulcorner \text{wff} \urcorner \wedge \text{wff}(x_1) \big) \Big\urcorner.
 </script>
 </p>
-<p>Now define,</p>
+<h3 id="omega-consistency">Omega-Consistency<a class="headerlink" href="#omega-consistency" title="Permanent link">&para;</a></h3>
+<p>A theory $T$ is $\omega$-consistent when, for some $\varphi$,</p>
 <p>
 <script type="math/tex; mode=display">
-    \text{gdl} \big(\lceil \zeta \rceil \big) = \Big\lceil \exists x_1 \big( x_1 = \lceil \zeta \rceil \wedge \zeta(x_1) \big) \Big\rceil.
+    T \vdash \exists x \varphi (x)
 </script>
 </p>
+<p>but, for every $n$,</p>
+<p>
+<script type="math/tex; mode=display">
+    T \vdash \neg \varphi (S^n O).
+</script>
+</p>
+<p>For example, suppose $\mathbb N \cup { \text{puppy} }$. Then $\exists x  ~ \text{Cute}(x)$ but $\neg ~ \text{Cute}(S^n O)$ for all $n \in \mathbb N$.</p>
+<h3 id="inconsistency">Inconsistency<a class="headerlink" href="#inconsistency" title="Permanent link">&para;</a></h3>
+<p><strong>Claim:</strong> If $T$ is a decidable extension of $PA$, then:</p>
+<ol>
+<li>If $T$ is consistent, then $T \not\vdash G$, and,</li>
+<li>If $T$ is $\omega$-consistent, then $T \not\vdash \neg G$.</li>
+</ol>
+<!-- TODO
+Suppose $PA$ is consistent. If $PA \vdash G$, then the proof has some number, say $m$. Then $PA \vdash \text{Proof} ( m, \ulcorner G \urcorner )$, so $PA \vdash \text{Proof} ( m, \text{diag}( \ulcorner U \urcorner ))$.
+-->
           <aside class="copyright" role="note">
             
             Documentation built with
